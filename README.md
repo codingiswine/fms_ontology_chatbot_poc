@@ -4,6 +4,14 @@
   <img src="docs/images/ontology_based_chatbot.png" alt="LINK FMS Main" width="100%">
 </p>
 
+<p align="center">
+  <img src="docs/images/graph_search1.png" alt="LINK FMS Main" width="100%">
+</p>
+
+<p align="center">
+  <img src="docs/images/graph_search2.png" alt="LINK FMS Main" width="100%">
+</p>
+
 
 <br>
 
