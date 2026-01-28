@@ -1,8 +1,9 @@
 # Advanced Ontology – 시설물 업무일지 구조화 PoC
 
 <p align="center">
-  <img src="./ontology_based_chatbot.png" alt="LINK FMS Main" width="100%">
+  <img src="docs/images/ontology_based_chatbot.png" alt="LINK FMS Main" width="100%">
 </p>
+
 
 <br>
 
