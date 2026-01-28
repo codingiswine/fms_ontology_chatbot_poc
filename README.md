@@ -1,8 +1,14 @@
 # Advanced Ontology – 시설물 업무일지 구조화 PoC
 
+<p align="center">
+  <img src="./ontology_based_chatbot.png" alt="LINK FMS Main" width="100%">
+</p>
+
+<br>
+
 대기업 시설물 관리팀의 수기 업무일지를 **Ontology 기반 지식 그래프**로 변환하고, GPT + SPARQL 조합으로 질의응답을 수행하는 PoC 프로젝트입니다. 자유서술형 텍스트를 자동으로 추출·정제해 작업/설비/조치 관계를 명시적으로 표현하고, RDF 그래프를 통해 탐색할 수 있도록 설계했습니다.
 
----
+
 
 ## 🧾 프로젝트 개요
 
