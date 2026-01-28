@@ -1,0 +1,3309 @@
+@prefix ns1: <http://example.org/fms#> .
+@prefix ns2: <http://www.semanticweb.org/pc/ontologies/2025/5/untitled-ontology-8#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:Cause a <http://www.w3.org/2002/07/owl#Class> .
+
+ns1:Location a <http://www.w3.org/2002/07/owl#Class> .
+
+ns1:TaskType a <http://www.w3.org/2002/07/owl#Class> .
+
+ns1:Work_001 a ns1:Work ;
+    ns1:hasTask "전층시설물 점검 및 주 야간 종합순찰"^^xsd:string ;
+    ns1:hasTime ns1:Time_1 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_002 a ns1:Work ;
+    ns1:hasTask "E/L 2호기 고장으로 후지테크AS신청"^^xsd:string ;
+    ns1:hasTime ns1:Time_2 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_003 a ns1:Work ;
+    ns1:hasTask "4층 원복공사관리_하이퍼라인"^^xsd:string ;
+    ns1:hasTime ns1:Time_3 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_004 a ns1:Work ;
+    ns1:hasTask "입주청소,화장실바닥몰타르시공"^^xsd:string ;
+    ns1:hasTime ns1:Time_4 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_005 a ns1:Work ;
+    ns1:hasTask "휴게실바닥 타일철거및 카페트시공"^^xsd:string ;
+    ns1:hasTime ns1:Time_5 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_006 a ns1:Work ;
+    ns1:hasTask "로비 회전문 오작동 건축합동 점검 및 센서 보수 정상가동"^^xsd:string ;
+    ns1:hasTime ns1:Time_6 ;
+    ns1:hasWorker ns1:Worker_%EA%B9%80%EA%B4%91%EB%AC%B4,
+        ns1:Worker_%EA%B9%80%EC%A2%85%EC%B2%A0,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_007 a ns1:Work ;
+    ns1:hasTask "1층 외곽 ALTS 배터리,가스 압력상태 점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_7 ;
+    ns1:hasWorker ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_008 a ns1:Work ;
+    ns1:hasTask "지하5층 전기실 수배전반 내부 열화상측정 및 편집작업"^^xsd:string ;
+    ns1:hasTime ns1:Time_8 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_009 a ns1:Work ;
+    ns1:hasTask "전기실 수배전반 점검보고서 관련 회의"^^xsd:string ;
+    ns1:hasTime ns1:Time_9 ;
+    ns1:hasWorker ns1:Worker_%EA%B9%80%EA%B4%91%EB%AC%B4,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_010 a ns1:Work ;
+    ns1:hasTask "11층 베니트 인프라팀 바닥 시스템박스 보수작업"^^xsd:string ;
+    ns1:hasTime ns1:Time_10 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_011 a ns1:Work ;
+    ns1:hasTask "옥탑층~3층 소화기 23년점검카드 수거작업"^^xsd:string ;
+    ns1:hasTime ns1:Time_11 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_012 a ns1:Work ;
+    ns1:hasTask "16층 플라스틱 비서자리 전등 전원라인 점검 보수점등"^^xsd:string ;
+    ns1:hasTime ns1:Time_12 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_013 a ns1:Work ;
+    ns1:hasTask "전기실 수배전반 주,야간 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_13 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%B5%9C%ED%99%80%EC%B2%A0 .
+
+ns1:Work_014 a ns1:Work ;
+    ns1:hasTask "승강기안전공단 검사 신청 및 승강기 정기안전검사 품의"^^xsd:string ;
+    ns1:hasTime ns1:Time_14 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_015 a ns1:Work ;
+    ns1:hasTask "수광비 증감분석 작성 및 13층 관제실 전기공사 협의"^^xsd:string ;
+    ns1:hasTime ns1:Time_15 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_016 a ns1:Work ;
+    ns1:hasTask "전기실 수배전반 저압측 열화상측정 및 상태점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_16 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_017 a ns1:Work ;
+    ns1:hasTask "3층~지하5층 소화기 23년점검카드 수거"^^xsd:string ;
+    ns1:hasTime ns1:Time_17 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_018 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_18 ;
+    ns1:hasTask "B1 매장복도 시스템박스 노후/파손교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_18 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_019 a ns1:Work ;
+    ns1:hasTask "소화기 23년점검카드 수거분 새정작업"^^xsd:string ;
+    ns1:hasTime ns1:Time_19 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_020 a ns1:Work ;
+    ns1:hasTask "열화상측정자료 정리 및 서류정리"^^xsd:string ;
+    ns1:hasTime ns1:Time_20 ;
+    ns1:hasWorker ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_021 a ns1:Work ;
+    ns1:hasTask "수배전반 점검보고서 작성 및 수배전반 부스바 유간점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_21 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_022 a ns1:Work ;
+    ns1:hasTask "13층 관제실 전기공사 관련 분전반 및 설치위치 재확인"^^xsd:string ;
+    ns1:hasTime ns1:Time_22 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_023 a ns1:Work ;
+    ns1:hasTask "전기실 수배전반 주,야간 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_23 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%80%EC%B2%A0 .
+
+ns1:Work_024 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_24 ;
+    ns1:hasTask "옥상~B5층 2계단 청사측 전등 점등 확인 및 보수"^^xsd:string ;
+    ns1:hasTime ns1:Time_24 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_025 a ns1:Work ;
+    ns1:hasTask "옥상~10층 소화기 충압상태 및 관리번호 점검 (24년 소화기 월간 점검카드 부착)"^^xsd:string ;
+    ns1:hasTime ns1:Time_25 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_026 a ns1:Work ;
+    ns1:hasTask "전기실 부스바 온도체크 일일점검일지(열화상 사진포함) 작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_26 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_027 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_27 ;
+    ns1:hasTask "10층,14층 사무실 불량램프 3개소 교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_27 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_028 a ns1:Work ;
+    ns1:hasTask "수배전반 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_28 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_029 a ns1:Work ;
+    ns1:hasTask "2024 소방계획서 작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_29 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_030 a ns1:Work ;
+    ns1:hasTask "수광비 증감분석 및 월간리포터 작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_30 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_031 a ns1:Work ;
+    ns1:hasTask "전기설비 점검 보고서 수정작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_31 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_032 a ns1:Work ;
+    ns1:hasTask "지하1층 주차장 높이제한 표지판 보수"^^xsd:string ;
+    ns1:hasTime ns1:Time_32 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_033 a ns1:Work ;
+    ns1:hasTask "13층 사무실 시스템박스커버 보수"^^xsd:string ;
+    ns1:hasTime ns1:Time_33 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_034 a ns1:Work ;
+    ns1:hasTask "3층 강담 빔프로젝트 점검 및 장비세팅"^^xsd:string ;
+    ns1:hasTime ns1:Time_34 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_035 a ns1:Work ;
+    ns1:hasTask "9층~지하5층 소화기 월간점검 및 관리번호 확인"^^xsd:string ;
+    ns1:hasTime ns1:Time_35 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_036 a ns1:Work ;
+    ns1:hasTask "코오롱타워 순간정전관련 전기시설물 점검 및 보수"^^xsd:string ;
+    ns1:hasTime ns1:Time_36 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_037 a ns1:Work ;
+    ns1:hasTask "관제실 UPS, 전기실 배터리 전압측정 및 상태점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_37 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_038 a ns1:Work ;
+    ns1:hasTask "전기실,발전기실,정류기반 환경정비"^^xsd:string .
+
+ns1:Work_039 a ns1:Work ;
+    ns1:hasTask "전기설비 점검 보고서 수정작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_39 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_040 a ns1:Work ;
+    ns1:hasTask "수배전반 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_40 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_041 a ns1:Work ;
+    ns1:hasTask "전층 시설물 점검 및 안전순찰"^^xsd:string ;
+    ns1:hasTime ns1:Time_41 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80 .
+
+ns1:Work_042 a ns1:Work ;
+    ns1:hasTask "4층 화장실 원복작업 관리감독(하이퍼라인)"^^xsd:string ;
+    ns1:hasTime ns1:Time_42 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80 .
+
+ns1:Work_043 a ns1:Work ;
+    ns1:hasTask "수배전반 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_43 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80 .
+
+ns1:Work_044 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_44 ;
+    ns1:hasTask "4층 통신실(예약실) 파티션변경에 따른 전열라인변경,PC세팅"^^xsd:string ;
+    ns1:hasTime ns1:Time_44 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98%EC%99%B82%EB%AA%85 .
+
+ns1:Work_045 a ns1:Work ;
+    ns1:hasTask "수배전반 저압반 열화상촬영 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_45 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_046 a ns1:Work ;
+    ns1:hasTask "1층,B1층 EPS실 점검 및 환경정리"^^xsd:string ;
+    ns1:hasTime ns1:Time_46 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98%EC%99%B82%EB%AA%85 .
+
+ns1:Work_047 a ns1:Work ;
+    ns1:hasTask "6~9층 사무실 시스템박스 점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_47 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_048 a ns1:Work ;
+    ns1:hasTask "전기안전관리규정 변경 및 정리"^^xsd:string ;
+    ns1:hasTime ns1:Time_48 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_049 a ns1:Work ;
+    ns1:hasTask "수배전반 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_49 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_050 a ns1:Work ;
+    ns1:hasTask "지하5층 전기실 부스바 열화상 측정"^^xsd:string ;
+    ns1:hasTime ns1:Time_50 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80 .
+
+ns1:Work_051 a ns1:Work ;
+    ns1:hasTask "코오롱타워 지상주차장 및 외곽지역 재설작업"^^xsd:string ;
+    ns1:hasTime ns1:Time_51 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_052 a ns1:Work ;
+    ns1:hasTask "1층 회전문 고장 상태점검 및 스위치부분 접점확인"^^xsd:string ;
+    ns1:hasTime ns1:Time_52 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_053 a ns1:Work ;
+    ns1:hasTask "지하4층 제설차량 배러리 점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_53 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_054 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_54 ;
+    ns1:hasTask "10층 남자화장실 좌변기 천정 불량 램프 교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_54 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80 .
+
+ns1:Work_055 a ns1:Work ;
+    ns1:hasTask "2층 접견실 빔프로젝트 점검 및 셋팅"^^xsd:string ;
+    ns1:hasTime ns1:Time_55 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_056 a ns1:Work ;
+    ns1:hasTask "기계실 등기구 침수등기구 철거 및 선로 점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_56 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_057 a ns1:Work ;
+    ns1:hasTask "수배전반 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_57 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_058 a ns1:Work ;
+    ns1:hasTask "지하5층 전기실 부스바 열화상 측정"^^xsd:string ;
+    ns1:hasTime ns1:Time_58 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_059 a ns1:Work ;
+    ns1:hasTask "3층 강당 벽체 및 커튼, 시설물 방염 확인"^^xsd:string ;
+    ns1:hasTime ns1:Time_59 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_060 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_60 ;
+    ns1:hasTask "4층 청사측 전략기획실 창고 전원콘센트 설치"^^xsd:string ;
+    ns1:hasTime ns1:Time_60 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_061 a ns1:Work ;
+    ns1:hasTask "지하2층~지하4층 EPS실 점검 및 환경정비"^^xsd:string ;
+    ns1:hasTime ns1:Time_61 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_062 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_62 ;
+    ns1:hasTask "8층 복도 다운라이트 등기구 불량교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_62 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_063 a ns1:Work ;
+    ns1:hasTask "23년,24년도 전기안전관리규정 수정작업"^^xsd:string ;
+    ns1:hasTime ns1:Time_63 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_064 a ns1:Work ;
+    ns1:hasTask "수배전반 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_64 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_065 a ns1:Work .
+
+ns1:Work_066 a ns1:Work ;
+    ns1:hasTask "지하5층 전기실 저압부 부스바 열화상 측정 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_66 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_067 a ns1:Work ;
+    ns1:hasTask "관제실 주간회의 미팅"^^xsd:string ;
+    ns1:hasTime ns1:Time_67 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98,
+        ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_068 a ns1:Work ;
+    ns1:hasTask "18~10층 EPS실 분전반점검 및 열화상측정(전기직무고시)"^^xsd:string ;
+    ns1:hasTime ns1:Time_68 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98%EC%99%B82%EB%AA%85 .
+
+ns1:Work_069 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_69 ;
+    ns1:hasTask "10층 여자 화장실 불량램프교체(요청자:김진욱)"^^xsd:string ;
+    ns1:hasTime ns1:Time_69 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_070 a ns1:Work ;
+    ns1:hasTask "10층~12층 베니트파티션이동 조명제어PC 도면수정"^^xsd:string ;
+    ns1:hasTime ns1:Time_70 ;
+    ns1:hasWorker ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_071 a ns1:Work ;
+    ns1:hasTask "2층 접견실앞 시스템박스 보수"^^xsd:string ;
+    ns1:hasTime ns1:Time_71 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_072 a ns1:Work ;
+    ns1:hasTask "수배전반 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_72 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_073 a ns1:Work ;
+    ns1:hasTask "수배전반 저압부부스바 열화상측정 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_73 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_074 a ns1:Work ;
+    ns1:hasTask "10~3층 EPS실 분전반,구내식당,대강당 열화상측정(전기직무고시)"^^xsd:string ;
+    ns1:hasTime ns1:Time_74 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_075 a ns1:Work ;
+    ns1:hasTask "비상발전기 시운전 및 배터리 전압점검,일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_75 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_076 a ns1:Work ;
+    ns1:hasTask "B5전기실 환경개선 청소 및 정리"^^xsd:string ;
+    ns1:hasTime ns1:Time_76 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_077 a ns1:Work ;
+    ns1:hasTask "3층 구내식당 분전함 단자대 단자조임 및 점검(순간온수 차단기 열화상 48도)"^^xsd:string ;
+    ns1:hasTime ns1:Time_77 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_078 a ns1:Work ;
+    ns1:hasTask "10~12층베니트 부서이동에따른 전등프로그램s/w  회로명 명판 교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_78 ;
+    ns1:hasWorker ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_079 a ns1:Work ;
+    ns1:hasTask "전기안전관리규정 작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_79 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_080 a ns1:Work ;
+    ns1:hasTask "전층 시설물 점검 및 안전순찰"^^xsd:string ;
+    ns1:hasTime ns1:Time_80 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_081 a ns1:Work ;
+    ns1:hasTask "전층 소화전 상태점검 및 보수"^^xsd:string ;
+    ns1:hasTime ns1:Time_81 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_082 a ns1:Work ;
+    ns1:hasTask "수배전반 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_82 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_083 a ns1:Work ;
+    ns1:hasTask "전층 시설물 점검 및 안전순찰"^^xsd:string ;
+    ns1:hasTime ns1:Time_83 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80 .
+
+ns1:Work_084 a ns1:Work ;
+    ns1:hasTask "수배전반 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_84 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80 .
+
+ns1:Work_085 a ns1:Work ;
+    ns1:hasTask "수배전반 저압부 부스바 열화상 측정 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_85 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_086 a ns1:Work ;
+    ns1:hasTask "1층 외곽 ALTS 가스충전상태 및 배터리 점검,거미줄제거"^^xsd:string ;
+    ns1:hasTime ns1:Time_86 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_087 a ns1:Work ;
+    ns1:hasTask "2층~B5층 EPS실 분전반 열화상측정(전기직무고시)"^^xsd:string ;
+    ns1:hasTime ns1:Time_87 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_088 a ns1:Work ;
+    ns1:hasTask "5층어린이집,2층사무실,1층은행,B1매장분전반 2개소 열화상측정 및 단자점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_88 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_089 a ns1:Work ;
+    ns1:hasTask "23년 절연저항등 안전관리 서류 확인 및 정리"^^xsd:string ;
+    ns1:hasTime ns1:Time_89 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_090 a ns1:Work ;
+    ns1:hasTask "수배전반 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_90 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_091 a ns1:Work ;
+    ns1:hasTask "옥상~B5층 청사측 1번계단 전등점등 및 등기구외관점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_91 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_092 a ns1:Work ;
+    ns1:hasTask "수배전반 저압부 부스바 열화상측정 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_92 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_093 a ns1:Work ;
+    ns1:hasTask "옥상~14층 공조실 MCC,인버터판넬 열화상측정 및 단자점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_93 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_094 a ns1:Work ;
+    ns1:hasTask "화재예방교육(담배화재) 교육자료 작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_94 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_095 a ns1:Work ;
+    ns1:hasTask "3층구내식당 히터전원케이블 점검-공조실쪽에서 합선으로 단선확인"^^xsd:string ;
+    ns1:hasTime ns1:Time_95 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98%EC%99%B82%EB%AA%85 .
+
+ns1:Work_096 a ns1:Work ;
+    ns1:hasTask "비상발전기 접지저항,절연저항,배터리전압측정(전기직무고시)"^^xsd:string ;
+    ns1:hasTime ns1:Time_96 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98%EC%99%B82%EB%AA%85 .
+
+ns1:Work_097 a ns1:Work ;
+    ns1:hasTask "23년 절연저항등 안전관리 서류 확인 및 정리"^^xsd:string ;
+    ns1:hasTime ns1:Time_97 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_098 a ns1:Work ;
+    ns1:hasTask "수배전반 검침 및 일지작성"^^xsd:string ;
+    ns1:hasWorker <http://example.org/fms#Worker_13%3A00~13%3A30>,
+        <http://example.org/fms#Worker_21%3A30~22%3A00> .
+
+ns1:Work_099 a ns1:Work ;
+    ns1:hasTask "옥상~B5 분수대쪽 2번계단 전등점등 및 외관확인"^^xsd:string ;
+    ns1:hasTime ns1:Time_99 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_100 a ns1:Work ;
+    ns1:hasTask "수배전반 저압부 부스바 열화상촬영 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_100 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_101 a ns1:Work ;
+    ns1:hasTask "13층~7층 공조실 MCC,인버터 열화상 촬영 및 점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_101 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_102 a ns1:Work ;
+    ns1:hasTask "1층 로비 회전문 동작센서교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_102 ;
+    ns1:hasWorker ns1:Worker_%EA%B9%80%EA%B4%91%EB%AC%B4%EC%99%B83%EB%AA%85 .
+
+ns1:Work_103 a ns1:Work ;
+    ns1:hasTask "2층 접견실 9번방 LG그램노트북 HDMI연결 호환점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_103 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_104 a ns1:Work ;
+    ns1:hasTask "17층 사무실 사내방송티비 전원라인 점검 및 보수"^^xsd:string ;
+    ns1:hasTime ns1:Time_104 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_105 a ns1:Work ;
+    ns1:hasTask "수배전반 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_105 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_106 a ns1:Work ;
+    ns1:hasTask "1층 정산소 PC 정보보안관련 V3 설치 및 설정 변경, 선정리"^^xsd:string ;
+    ns1:hasTime ns1:Time_106 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_107 a ns1:Work ;
+    ns1:hasTask "23년 전기관련 서류 확인 및 정리"^^xsd:string ;
+    ns1:hasTime ns1:Time_107 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_108 a ns1:Work ;
+    ns1:hasTask "수배전반 저압판넬 부스바 열화상 촬영 및 편집작업"^^xsd:string ;
+    ns1:hasTime ns1:Time_108 ;
+    ns1:hasWorker ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_109 a ns1:Work ;
+    ns1:hasTask "1층 주 회전문 리미트스위치 위치조정 및 재결선"^^xsd:string ;
+    ns1:hasTime ns1:Time_109 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_110 a ns1:Work ;
+    ns1:hasTask "18층~지하4층 EPS실 시설물 점검 및 통제구역 출입관리  대장설치"^^xsd:string ;
+    ns1:hasTime ns1:Time_110 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_111 a ns1:Work ;
+    ns1:hasTask "4층 원복공사관련 상태 점검 및 전기시설물 점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_111 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_112 a ns1:Work ;
+    ns1:hasTask "지하5층 수배전반 주 야간 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_112 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_113 a ns1:Work ;
+    ns1:hasTask "1층 주회전문 셀렉터스위치 점검 및 재결선"^^xsd:string ;
+    ns1:hasTime ns1:Time_113 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_114 a ns1:Work ;
+    ns1:hasTask "전기실 수배전반 LV1 ~LV23판넬 부스바 열화상 촬영 및 편집작업"^^xsd:string ;
+    ns1:hasTime ns1:Time_114 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_115 a ns1:Work ;
+    ns1:hasTask "1층 주회전문 셀렉터스위치 동작표시 라벨링 표기작업"^^xsd:string ;
+    ns1:hasTime ns1:Time_115 ;
+    ns1:hasWorker ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_116 a ns1:Work ;
+    ns1:hasTask "13층 EPS실 분전반 비상전원 회로 접지라인 점검 및 재결선 작업"^^xsd:string ;
+    ns1:hasTime ns1:Time_116 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_117 a ns1:Work ;
+    ns1:hasTask "전기 자재창고 정리 및 자재 재고파악"^^xsd:string ;
+    ns1:hasTime ns1:Time_117 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_118 a ns1:Work ;
+    ns1:hasTask "지하5층 전기실 바닥청소 및  환경정비"^^xsd:string ;
+    ns1:hasTime ns1:Time_118 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_119 a ns1:Work ;
+    ns1:hasTask "지하5층 수배전반 주 야간 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_119 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_120 a ns1:Work ;
+    ns1:hasTask "전층 시설물 점검 및  주 야간 종합순찰"^^xsd:string ;
+    ns1:hasTime ns1:Time_120 ;
+    ns1:hasWorker ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_121 a ns1:Work ;
+    ns1:hasTask "전기실 수배전반 점검 및 주 야간 검침"^^xsd:string ;
+    ns1:hasTime ns1:Time_121 ;
+    ns1:hasWorker ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_122 a ns1:Work ;
+    ns1:hasTask "전층 시설물 점검 및  주 야간 종합순찰"^^xsd:string ;
+    ns1:hasTime ns1:Time_122 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_123 a ns1:Work ;
+    ns1:hasTask "4층 사무실 전등 회로분리(3번회로 2라인->3라인 점소등) 및 EPS실 분전반 자동문 차단기 설치 공사 현장점검 (하이퍼라인)"^^xsd:string ;
+    ns1:hasTime ns1:Time_123 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_124 a ns1:Work ;
+    ns1:hasTask "전기실 수배전반 점검 및 주 야간 검침"^^xsd:string ;
+    ns1:hasTime ns1:Time_124 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_125 a ns1:Work ;
+    ns1:hasTask "1층 회전문 상태점검 및 재가동"^^xsd:string ;
+    ns1:hasTime ns1:Time_125 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_126 a ns1:Work ;
+    ns1:hasTask "수배전반 저압판넬 부스바 열화상 촬영 및 편집작업"^^xsd:string ;
+    ns1:hasTime ns1:Time_126 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_127 a ns1:Work ;
+    ns1:hasTask "지하2층 등기구 전원라인 점검 및 재결선"^^xsd:string ;
+    ns1:hasTime ns1:Time_127 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_128 a ns1:Work ;
+    ns1:hasTask "지하4층 등기구 불량교체최홍철,백승우"^^xsd:string ;
+    ns1:hasWorker <http://example.org/fms#Worker_10%3A30~11%3A10> .
+
+ns1:Work_129 a ns1:Work ;
+    ns1:hasTask "지하층 전기설비 점검 및 열화상측정"^^xsd:string ;
+    ns1:hasTime ns1:Time_129 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_130 a ns1:Work ;
+    ns1:hasTask "지하4층 주차장급기댐퍼 모터제거"^^xsd:string ;
+    ns1:hasTime ns1:Time_130 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_131 a ns1:Work ;
+    ns1:hasTask "옥상~15층 E.M.Lock 및 자동문 작동상태 점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_131 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_132 a ns1:Work ;
+    ns1:hasTask "18층 복도 불량램프교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_132 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_133 a ns1:Work ;
+    ns1:hasTask "23년 전기관련 서류 확인 및 정리"^^xsd:string ;
+    ns1:hasTime ns1:Time_133 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_134 a ns1:Work ;
+    ns1:hasTask "전기실 수배전반 점검 및 주 야간 검침"^^xsd:string ;
+    ns1:hasTime ns1:Time_134 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_135 a ns1:Work ;
+    ns1:hasTask "수배전반 저압 부스바 열화상측정 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_135 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_136 a ns1:Work ;
+    ns1:hasTask "10층~14층 자동문 및 1,2번계단 비상구E.M LOCK 점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_136 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_137 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_137 ;
+    ns1:hasTask "6층 CEM본부 사무실 불량LED교체(5개소)"^^xsd:string ;
+    ns1:hasTime ns1:Time_137 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_138 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_138 ;
+    ns1:hasTask "4층 코오롱 사무실 불량LED교체(2개소)"^^xsd:string ;
+    ns1:hasTime ns1:Time_138 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_139 a ns1:Work ;
+    ns1:hasTask "B2층 주차장 LED등기구 깜박거림 점검(결선불량)"^^xsd:string ;
+    ns1:hasTime ns1:Time_139 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_140 a ns1:Work ;
+    ns1:hasTask "지하층 피난안내도 작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_140 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_141 a ns1:Work ;
+    ns1:hasTask "24년 전기안전관리규정 개정사항 확인 및 수정"^^xsd:string ;
+    ns1:hasTime ns1:Time_141 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_142 a ns1:Work ;
+    ns1:hasTask "수배전반 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_142 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_143 a ns1:Work ;
+    ns1:hasTask "수배전반 저압부부스바 열화상촬영 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_143 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_144 a ns1:Work ;
+    ns1:hasTask "B1층~B5층 피난안내도 작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_144 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_145 a ns1:Work ;
+    ns1:hasTask "3층 대강당 코오롱플라스틱 및 코오롱LSI 교육및 행사지원"^^xsd:string ;
+    ns1:hasTime ns1:Time_145 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_146 a ns1:Work ;
+    ns1:hasTask "동파방지 소화전 열선, 투광등 점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_146 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_147 a ns1:Work ;
+    ns1:hasTask "발전설비 점검기록표 개정사항 확인 및 수정"^^xsd:string ;
+    ns1:hasTime ns1:Time_147 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_148 a ns1:Work ;
+    ns1:hasTask "전기실 수배전반 주야간 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_148 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_149 a ns1:Work ;
+    ns1:hasTask "수배전반 저압부부스바 열화상촬영 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_149 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_150 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_150 ;
+    ns1:hasTask "7층 사무실 불량램프, 컨버터 및 소켓 3개소 교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_150 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_151 a ns1:Work ;
+    ns1:hasTask "13층 미래기술팀 전열라인 트립 점검 및 복구"^^xsd:string ;
+    ns1:hasTime ns1:Time_151 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_152 a ns1:Work ;
+    ns1:hasTask "14층 대회의실 및 대표님실 불량램프교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_152 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_153 a ns1:Work ;
+    ns1:hasTask "옥탑~10층 사무실 및 공용존 유도등 배터리 점검 및 교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_153 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_154 a ns1:Work ;
+    ns1:hasTask "전기실 수배전반 주야간 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_154 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_155 a ns1:Work ;
+    ns1:hasTask "전기부하표 확인 및 발전설비 점검기록표 수정"^^xsd:string ;
+    ns1:hasTime ns1:Time_155 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_156 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_156 ;
+    ns1:hasTask "3층 강당 베니트 행사 세팅 지원"^^xsd:string ;
+    ns1:hasTime ns1:Time_156 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_157 a ns1:Work ;
+    ns1:hasTask "지하1층 매장창고 노후 전등 LED로 교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_157 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_158 a ns1:Work ;
+    ns1:hasTask "전기실 수배전반 주야간 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_158 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80 .
+
+ns1:Work_159 a ns1:Work ;
+    ns1:hasTask "전층 시설물 점검 및  주 야간 종합순찰"^^xsd:string ;
+    ns1:hasTime ns1:Time_159 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_160 a ns1:Work ;
+    ns1:hasTask "전기실 수배전반 점검 및 주 야간 검침"^^xsd:string ;
+    ns1:hasTime ns1:Time_160 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_161 a ns1:Work ;
+    ns1:hasTask "전층 시설물 점검 및  주 야간 종합순찰"^^xsd:string ;
+    ns1:hasTime ns1:Time_161 ;
+    ns1:hasWorker ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_162 a ns1:Work ;
+    ns1:hasTask "4층 남자화장실 다운라이트 전등 1개 추가설치 및 4층 EPS실 분전반 자동문 전원차단기 2개 교체 현장점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_162 ;
+    ns1:hasWorker ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_163 a ns1:Work ;
+    ns1:hasTask "전기실 수배전반 점검 및 주 야간 검침"^^xsd:string ;
+    ns1:hasTime ns1:Time_163 ;
+    ns1:hasWorker ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_164 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_164 ;
+    ns1:hasTask "3층 강당 빔프로젝트 점검 및 무선마이크 배터리 교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_164 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80 .
+
+ns1:Work_165 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_165 ;
+    ns1:hasTask "지하5층 전기실 수배전반 저압부 부스바 열화상촬영 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_165 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_166 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_166 ;
+    ns1:hasTask "6층~1층 공조실 MCC반, 인버터판넬 열화상 측정 및 외관상태 점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_166 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_167 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_167 ;
+    ns1:hasTask "관제실,전기실 전기기기 및 자재 정리, 라벨링작업"^^xsd:string ;
+    ns1:hasTime ns1:Time_167 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_168 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_168 ;
+    ns1:hasTask "5층 청사측 전실감지기 불량교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_168 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_169 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_169 ;
+    ns1:hasTask "1층 ALTS 외관상태 및 배터리 전압측정, 분진제거"^^xsd:string ;
+    ns1:hasTime ns1:Time_169 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_170 a ns1:Work ;
+    ns1:hasTask "5,6호기 E/L 카내 승강기 안전점검 확인증 부착"^^xsd:string ;
+    ns1:hasTime ns1:Time_170 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_171 a ns1:Work ;
+    ns1:hasTask "5층 청사측 PI 사무실 불량다운라이트 등기구 교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_171 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_172 a ns1:Work ;
+    ns1:hasTask "공사관련 견적서 확인 및 서류정리"^^xsd:string ;
+    ns1:hasTime ns1:Time_172 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_173 a ns1:Work ;
+    ns1:hasTask "EPS 환경정비 및 방송단자함 쇄정상태 점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_173 ;
+    ns1:hasWorker ns1:Worker_%EA%B9%80%EA%B4%91%EB%AC%B4 .
+
+ns1:Work_174 a ns1:Work ;
+    ns1:hasTask "관제실 감시모니터 컴퓨터 비밀번호 변경"^^xsd:string ;
+    ns1:hasTime ns1:Time_174 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80 .
+
+ns1:Work_175 a ns1:Work ;
+    ns1:hasTask "전기실 수배전반 점검 및 주 야간 검침"^^xsd:string ;
+    ns1:hasTime ns1:Time_175 ;
+    ns1:hasWorker ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_176 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_176 ;
+    ns1:hasTask "관제실 CCTV용 PC 프로그램 점검 및 비번 수정 셋팅작업"^^xsd:string ;
+    ns1:hasTime ns1:Time_176 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_177 a ns1:Work ;
+    ns1:hasTask "전기실 저압측 수배전반 내부 부스바 열화상 촬영,편집작업"^^xsd:string ;
+    ns1:hasTime ns1:Time_177 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_178 a ns1:Work ;
+    ns1:hasTask "14층 E/L홀 아크릴카바 전등 불량,노후램프 24개 교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_178 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_179 a ns1:Work ;
+    ns1:hasTask "1층 외곽 주차장 전기맨홀 2개소 점검 및 배수작업"^^xsd:string ;
+    ns1:hasTime ns1:Time_179 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_180 a ns1:Work ;
+    ns1:hasTask "지하4층 케비넷 잠금장치 점검 및 보수"^^xsd:string ;
+    ns1:hasTime ns1:Time_180 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_181 a ns1:Work ;
+    ns1:hasTask "전기실 수배전반 점검 및 주 야간 검침"^^xsd:string ;
+    ns1:hasTime ns1:Time_181 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_182 a ns1:Work ;
+    ns1:hasTask "전기실 저압측 수배전반내부 부스바 열화상 촬영 및 편집작업"^^xsd:string ;
+    ns1:hasTime ns1:Time_182 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_183 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_183 ;
+    ns1:hasTask "옥상~14층 소화전 기동표시등 점검 및 17층 기동표시등 교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_183 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_184 a ns1:Work ;
+    ns1:hasTask "4층 E/L홀 할로겐전등회로,복도등회로 전원결선 및 점소등세팅"^^xsd:string ;
+    ns1:hasTime ns1:Time_184 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_185 a ns1:Work ;
+    ns1:hasTask "4층 EPS실 7,8층 방송 타이머,마그네트,하이박스,전원라인 철거"^^xsd:string ;
+    ns1:hasTime ns1:Time_185 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_186 a ns1:Work ;
+    ns1:hasTask "지하5층 자재창고정리 및 전기자재 재고파악"^^xsd:string ;
+    ns1:hasTime ns1:Time_186 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98,
+        ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_187 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_187 ;
+    ns1:hasTask "6층 소화전2,3번판넬 수동발신기 노후 교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_187 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_188 a ns1:Work ;
+    ns1:hasTask "수배전반 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_188 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_189 a ns1:Work ;
+    ns1:hasPlan ns1:Plan_189 ;
+    ns1:hasTask "옥상~B5층 청사측 1번계단 전등점등 및 등기구외관점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_189 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_190 a ns1:Work ;
+    ns1:hasPlan ns1:Plan_190 ;
+    ns1:hasTask "수배전반 저압부 부스바 열화상측정 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_190 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_191 a ns1:Work ;
+    ns1:hasTask "옥상~14층 공조실 MCC,인버터판넬 열화상측정 및 단자점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_191 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_192 a ns1:Work ;
+    ns1:hasTask "화재예방교육(담배화재) 교육자료 작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_192 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_193 a ns1:Work ;
+    ns1:hasTask "3층구내식당 히터전원케이블 점검-공조실쪽에서 합선으로 단선확인"^^xsd:string ;
+    ns1:hasTime ns1:Time_193 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98%EC%99%B82%EB%AA%85 .
+
+ns1:Work_194 a ns1:Work ;
+    ns1:hasTask "비상발전기 접지저항,절연저항,배터리전압측정(전기직무고시)"^^xsd:string ;
+    ns1:hasTime ns1:Time_194 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98%EC%99%B82%EB%AA%85 .
+
+ns1:Work_195 a ns1:Work ;
+    ns1:hasTask "23년 절연저항등 안전관리 서류 확인 및 정리"^^xsd:string ;
+    ns1:hasTime ns1:Time_195 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_196 a ns1:Work ;
+    ns1:hasTask "수배전반 검침 및 일지작성"^^xsd:string ;
+    ns1:hasWorker <http://example.org/fms#Worker_13%3A00~13%3A30>,
+        <http://example.org/fms#Worker_21%3A30~22%3A00> .
+
+ns1:Work_197 a ns1:Work ;
+    ns1:hasTask "옥상~B5 분수대쪽 2번계단 전등점등 및 외관확인"^^xsd:string ;
+    ns1:hasTime ns1:Time_197 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_198 a ns1:Work ;
+    ns1:hasTask "수배전반 저압부 부스바 열화상촬영 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_198 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_199 a ns1:Work ;
+    ns1:hasTask "13층~7층 공조실 MCC,인버터 열화상 촬영 및 점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_199 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_200 a ns1:Work ;
+    ns1:hasTask "1층 로비 회전문 동작센서교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_200 ;
+    ns1:hasWorker ns1:Worker_%EA%B9%80%EA%B4%91%EB%AC%B4%EC%99%B83%EB%AA%85 .
+
+ns1:Work_201 a ns1:Work ;
+    ns1:hasTask "2층 접견실 9번방 LG그램노트북 HDMI연결 호환점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_201 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_202 a ns1:Work ;
+    ns1:hasTask "17층 사무실 사내방송티비 전원라인 점검 및 보수"^^xsd:string ;
+    ns1:hasTime ns1:Time_202 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_203 a ns1:Work ;
+    ns1:hasTask "수배전반 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_203 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_204 a ns1:Work ;
+    ns1:hasPlan ns1:Plan_204 ;
+    ns1:hasTask "1층 정산소 PC 정보보안관련 V3 설치 및 설정 변경, 선정리"^^xsd:string ;
+    ns1:hasTime ns1:Time_204 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_205 a ns1:Work ;
+    ns1:hasTask "23년 전기관련 서류 확인 및 정리"^^xsd:string ;
+    ns1:hasTime ns1:Time_205 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_206 a ns1:Work ;
+    ns1:hasTask "수배전반 저압판넬 부스바 열화상 촬영 및 편집작업"^^xsd:string ;
+    ns1:hasTime ns1:Time_206 ;
+    ns1:hasWorker ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_207 a ns1:Work ;
+    ns1:hasTask "1층 주 회전문 리미트스위치 위치조정 및 재결선"^^xsd:string ;
+    ns1:hasTime ns1:Time_207 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_208 a ns1:Work ;
+    ns1:hasTask "18층~지하4층 EPS실 시설물 점검 및 통제구역 출입관리  대장설치"^^xsd:string ;
+    ns1:hasTime ns1:Time_208 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_209 a ns1:Work ;
+    ns1:hasTask "4층 원복공사관련 상태 점검 및 전기시설물 점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_209 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_210 a ns1:Work ;
+    ns1:hasTask "지하5층 수배전반 주 야간 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_210 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_211 a ns1:Work ;
+    ns1:hasPlan ns1:Plan_211 ;
+    ns1:hasTask "1층 주회전문 셀렉터스위치 점검 및 재결선"^^xsd:string ;
+    ns1:hasTime ns1:Time_211 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_212 a ns1:Work ;
+    ns1:hasTask "전기실 수배전반 LV1 ~LV23판넬 부스바 열화상 촬영 및 편집작업"^^xsd:string ;
+    ns1:hasTime ns1:Time_212 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_213 a ns1:Work ;
+    ns1:hasTask "1층 주회전문 셀렉터스위치 동작표시 라벨링 표기작업"^^xsd:string ;
+    ns1:hasTime ns1:Time_213 ;
+    ns1:hasWorker ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_214 a ns1:Work ;
+    ns1:hasTask "13층 EPS실 분전반 비상전원 회로 접지라인 점검 및 재결선 작업"^^xsd:string ;
+    ns1:hasTime ns1:Time_214 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_215 a ns1:Work ;
+    ns1:hasTask "전기 자재창고 정리 및 자재 재고파악"^^xsd:string ;
+    ns1:hasTime ns1:Time_215 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_216 a ns1:Work ;
+    ns1:hasTask "지하5층 전기실 바닥청소 및  환경정비"^^xsd:string ;
+    ns1:hasTime ns1:Time_216 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_217 a ns1:Work ;
+    ns1:hasTask "지하5층 수배전반 주 야간 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_217 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_218 a ns1:Work ;
+    ns1:hasPlan ns1:Plan_218 ;
+    ns1:hasTask "전층 시설물 점검 및  주 야간 종합순찰"^^xsd:string ;
+    ns1:hasTime ns1:Time_218 ;
+    ns1:hasWorker ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_219 a ns1:Work ;
+    ns1:hasTask "전기실 수배전반 점검 및 주 야간 검침"^^xsd:string ;
+    ns1:hasTime ns1:Time_219 ;
+    ns1:hasWorker ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_220 a ns1:Work ;
+    ns1:hasPlan ns1:Plan_220 ;
+    ns1:hasTask "전층 시설물 점검 및  주 야간 종합순찰"^^xsd:string ;
+    ns1:hasTime ns1:Time_220 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_221 a ns1:Work ;
+    ns1:hasTask "4층 사무실 전등 회로분리(3번회로 2라인->3라인 점소등) 및 "^^xsd:string ;
+    ns1:hasTime ns1:Time_221 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_222 a ns1:Work ;
+    ns1:hasTask "EPS실 분전반 자동문 차단기 설치 공사 현장점검 (하이퍼라인)"^^xsd:string .
+
+ns1:Work_223 a ns1:Work ;
+    ns1:hasTask "전기실 수배전반 점검 및 주 야간 검침"^^xsd:string ;
+    ns1:hasTime ns1:Time_223 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_224 a ns1:Work ;
+    ns1:hasTask "1층 회전문 상태점검 및 재가동"^^xsd:string ;
+    ns1:hasTime ns1:Time_224 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_225 a ns1:Work ;
+    ns1:hasTask "수배전반 저압판넬 부스바 열화상 촬영 및 편집작업"^^xsd:string ;
+    ns1:hasTime ns1:Time_225 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_226 a ns1:Work ;
+    ns1:hasTask "지하2층 등기구 전원라인 점검 및 재결선"^^xsd:string ;
+    ns1:hasTime ns1:Time_226 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_227 a ns1:Work ;
+    ns1:hasTask "지하4층 등기구 불량교체"^^xsd:string .
+
+ns1:Work_228 a ns1:Work ;
+    ns1:hasTask "지하층 전기설비 점검 및 열화상측정"^^xsd:string ;
+    ns1:hasTime ns1:Time_228 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_229 a ns1:Work ;
+    ns1:hasTask "지하4층 주차장급기댐퍼 모터제거"^^xsd:string ;
+    ns1:hasTime ns1:Time_229 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_230 a ns1:Work ;
+    ns1:hasTask "옥상~15층 E.M.Lock 및 자동문 작동상태 점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_230 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_231 a ns1:Work ;
+    ns1:hasTask "18층 복도 불량램프교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_231 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_232 a ns1:Work ;
+    ns1:hasTask "23년 전기관련 서류 확인 및 정리"^^xsd:string ;
+    ns1:hasTime ns1:Time_232 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_233 a ns1:Work ;
+    ns1:hasTask "전기실 수배전반 점검 및 주 야간 검침"^^xsd:string ;
+    ns1:hasTime ns1:Time_233 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_234 a ns1:Work ;
+    ns1:hasTask "수배전반 저압 부스바 열화상측정 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_234 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_235 a ns1:Work ;
+    ns1:hasTask "10층~14층 자동문 및 1,2번계단 비상구E.M LOCK 점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_235 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_236 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_236 ;
+    ns1:hasTask "6층 CEM본부 사무실 불량LED교체(5개소)"^^xsd:string ;
+    ns1:hasTime ns1:Time_236 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_237 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_237 ;
+    ns1:hasTask "4층 코오롱 사무실 불량LED교체(2개소)"^^xsd:string ;
+    ns1:hasTime ns1:Time_237 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_238 a ns1:Work ;
+    ns1:hasTask "B2층 주차장 LED등기구 깜박거림 점검(결선불량) "^^xsd:string ;
+    ns1:hasTime ns1:Time_238 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_239 a ns1:Work ;
+    ns1:hasTask "지하층 피난안내도 작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_239 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_240 a ns1:Work ;
+    ns1:hasTask "24년 전기안전관리규정 개정사항 확인 및 수정"^^xsd:string ;
+    ns1:hasTime ns1:Time_240 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_241 a ns1:Work ;
+    ns1:hasTask "수배전반 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_241 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_242 a ns1:Work ;
+    ns1:hasPlan ns1:Plan_242 ;
+    ns1:hasTask "수배전반 저압부부스바 열화상촬영 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_242 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_243 a ns1:Work ;
+    ns1:hasTask "B1층~B5층 피난안내도 작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_243 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_244 a ns1:Work ;
+    ns1:hasTask "3층 대강당 코오롱플라스틱 및 코오롱LSI 교육및 행사지원"^^xsd:string ;
+    ns1:hasTime ns1:Time_244 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_245 a ns1:Work ;
+    ns1:hasTask "동파방지 소화전 열선, 투광등 점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_245 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_246 a ns1:Work ;
+    ns1:hasTask "발전설비 점검기록표 개정사항 확인 및 수정 "^^xsd:string ;
+    ns1:hasTime ns1:Time_246 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_247 a ns1:Work ;
+    ns1:hasTask "전기실 수배전반 주야간 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_247 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_248 a ns1:Work ;
+    ns1:hasTask "수배전반 저압부부스바 열화상촬영 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_248 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_249 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_249 ;
+    ns1:hasTask "7층 사무실 불량램프, 컨버터 및 소켓 3개소 교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_249 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_250 a ns1:Work ;
+    ns1:hasTask "13층 미래기술팀 전열라인 트립 점검 및 복구"^^xsd:string ;
+    ns1:hasTime ns1:Time_250 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_251 a ns1:Work ;
+    ns1:hasTask "14층 대회의실 및 대표님실 불량램프교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_251 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_252 a ns1:Work ;
+    ns1:hasTask "옥탑~10층 사무실 및 공용존 유도등 배터리 점검 및 교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_252 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_253 a ns1:Work ;
+    ns1:hasTask "전기실 수배전반 주야간 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_253 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_254 a ns1:Work ;
+    ns1:hasTask "전기부하표 확인 및 발전설비 점검기록표 수정 "^^xsd:string ;
+    ns1:hasTime ns1:Time_254 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_255 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_255 ;
+    ns1:hasTask "3층 강당 베니트 행사 세팅 지원"^^xsd:string ;
+    ns1:hasTime ns1:Time_255 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_256 a ns1:Work ;
+    ns1:hasTask "지하1층 매장창고 노후 전등 LED로 교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_256 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_257 a ns1:Work ;
+    ns1:hasTask "전기실 수배전반 주야간 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_257 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80 .
+
+ns1:Work_258 a ns1:Work ;
+    ns1:hasPlan ns1:Plan_258 ;
+    ns1:hasTask "전층 시설물 점검 및  주 야간 종합순찰"^^xsd:string ;
+    ns1:hasTime ns1:Time_258 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_259 a ns1:Work ;
+    ns1:hasTask "전기실 수배전반 점검 및 주 야간 검침"^^xsd:string ;
+    ns1:hasTime ns1:Time_259 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_260 a ns1:Work ;
+    ns1:hasPlan ns1:Plan_260 ;
+    ns1:hasTask "전층 시설물 점검 및  주 야간 종합순찰"^^xsd:string ;
+    ns1:hasTime ns1:Time_260 ;
+    ns1:hasWorker ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_261 a ns1:Work ;
+    ns1:hasPlan ns1:Plan_261 ;
+    ns1:hasTask "4층 남자화장실 다운라이트 전등 1개 추가설치 및 "^^xsd:string ;
+    ns1:hasTime ns1:Time_261 ;
+    ns1:hasWorker ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_262 a ns1:Work ;
+    ns1:hasTask "4층 EPS실 분전반 자동문 전원차단기 2개 교체 현장점검"^^xsd:string .
+
+ns1:Work_263 a ns1:Work ;
+    ns1:hasTask "전기실 수배전반 점검 및 주 야간 검침"^^xsd:string ;
+    ns1:hasTime ns1:Time_263 ;
+    ns1:hasWorker ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_264 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_264 ;
+    ns1:hasPlan ns1:Plan_264 ;
+    ns1:hasTask "3층 강당 빔프로젝트 점검 및 무선마이크 배터리 교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_264 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80 .
+
+ns1:Work_265 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_265 ;
+    ns1:hasPlan ns1:Plan_265 ;
+    ns1:hasTask "지하5층 전기실 수배전반 저압부 부스바 열화상촬영 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_265 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_266 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_266 ;
+    ns1:hasPlan ns1:Plan_266 ;
+    ns1:hasTask "6층~1층 공조실 MCC반, 인버터판넬 열화상 측정 및 외관상태 점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_266 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_267 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_267 ;
+    ns1:hasPlan ns1:Plan_267 ;
+    ns1:hasTask "관제실,전기실 전기기기 및 자재 정리, 라벨링작업"^^xsd:string ;
+    ns1:hasTime ns1:Time_267 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_268 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_268 ;
+    ns1:hasTask "5층 청사측 전실감지기 불량교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_268 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_269 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_269 ;
+    ns1:hasTask "1층 ALTS 외관상태 및 배터리 전압측정, 분진제거"^^xsd:string ;
+    ns1:hasTime ns1:Time_269 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_270 a ns1:Work ;
+    ns1:hasTask "5,6호기 E/L 카내 승강기 안전점검 확인증 부착"^^xsd:string ;
+    ns1:hasTime ns1:Time_270 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_271 a ns1:Work ;
+    ns1:hasTask "5층 청사측 PI 사무실 불량다운라이트 등기구 교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_271 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_272 a ns1:Work ;
+    ns1:hasTask "공사관련 견적서 확인 및 서류정리"^^xsd:string ;
+    ns1:hasTime ns1:Time_272 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 .
+
+ns1:Work_273 a ns1:Work ;
+    ns1:hasTask "EPS 환경정비 및 방송단자함 쇄정상태 점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_273 ;
+    ns1:hasWorker ns1:Worker_%EA%B9%80%EA%B4%91%EB%AC%B4 .
+
+ns1:Work_274 a ns1:Work ;
+    ns1:hasTask "관제실 감시모니터 컴퓨터 비밀번호 변경"^^xsd:string ;
+    ns1:hasTime ns1:Time_274 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80 .
+
+ns1:Work_275 a ns1:Work ;
+    ns1:hasTask "전기실 수배전반 점검 및 주 야간 검침"^^xsd:string ;
+    ns1:hasTime ns1:Time_275 ;
+    ns1:hasWorker ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_276 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_276 ;
+    ns1:hasTask "관제실 CCTV용 PC 프로그램 점검 및 비번 수정 셋팅작업"^^xsd:string ;
+    ns1:hasTime ns1:Time_276 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 .
+
+ns1:Work_277 a ns1:Work ;
+    ns1:hasTask "전기실 저압측 수배전반 내부 부스바 열화상 촬영,편집작업"^^xsd:string ;
+    ns1:hasTime ns1:Time_277 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_278 a ns1:Work ;
+    ns1:hasTask "14층 E/L홀 아크릴카바 전등 불량,노후램프 24개 교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_278 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_279 a ns1:Work ;
+    ns1:hasTask "1층 외곽 주차장 전기맨홀 2개소 점검 및 배수작업"^^xsd:string ;
+    ns1:hasTime ns1:Time_279 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_280 a ns1:Work ;
+    ns1:hasTask "지하4층 케비넷 잠금장치 점검 및 보수"^^xsd:string ;
+    ns1:hasTime ns1:Time_280 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_281 a ns1:Work ;
+    ns1:hasTask "전기실 수배전반 점검 및 주 야간 검침"^^xsd:string ;
+    ns1:hasTime ns1:Time_281 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_282 a ns1:Work ;
+    ns1:hasTask "전기실 저압측 수배전반내부 부스바 열화상 촬영 및 편집작업"^^xsd:string ;
+    ns1:hasTime ns1:Time_282 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_283 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_283 ;
+    ns1:hasTask "옥상~14층 소화전 기동표시등 점검 및 17층 기동표시등 교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_283 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_284 a ns1:Work ;
+    ns1:hasTask "4층 E/L홀 할로겐전등회로,복도등회로 전원결선 및 점소등세팅"^^xsd:string ;
+    ns1:hasTime ns1:Time_284 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_285 a ns1:Work ;
+    ns1:hasTask "4층 EPS실 7,8층 방송 타이머,마그네트,하이박스,전원라인 철거"^^xsd:string ;
+    ns1:hasTime ns1:Time_285 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_286 a ns1:Work ;
+    ns1:hasTask "지하5층 자재창고정리 및 전기자재 재고파악"^^xsd:string ;
+    ns1:hasTime ns1:Time_286 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98,
+        ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 .
+
+ns1:Work_287 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_287 ;
+    ns1:hasTask "6층 소화전2,3번판넬 수동발신기 노후 교체"^^xsd:string ;
+    ns1:hasTime ns1:Time_287 ;
+    ns1:hasWorker ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_288 a ns1:Work ;
+    ns1:hasTask "수배전반 검침 및 일지작성"^^xsd:string ;
+    ns1:hasTime ns1:Time_288 ;
+    ns1:hasWorker ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0,
+        ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 .
+
+ns1:Work_289 a ns1:Work ;
+    ns1:hasMaterial ns1:Material_289 ;
+    ns1:hasPlan ns1:Plan_289 ;
+    ns1:hasTask "7월 1일에 옥상~A5층 외관 점검 했어 작업 시간은 10:00~12:00 업무계획은 옥상~A5층 외관 점검"^^xsd:string ;
+    ns1:hasTime ns1:Time_289 ;
+    ns1:hasWorker ns1:Worker_%EC%8B%9C%EC%8A%A4%ED%85%9C .
+
+ns1:hasDate a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+ns1:hasName a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+ns1:hasQuantity a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+ns1:hasSpec a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+ns1:hasTask a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+ns1:locationName a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+ns1:planContent a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+ns1:timeValue a <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.semanticweb.org/pc/ontologies/2025/5/untitled-ontology-8> a <http://www.w3.org/2002/07/owl#Ontology> .
+
+ns2:OWLClass_74e9efad_fc94_42d5_b8c5_7472fb2f41f3 a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:label "여자화장실"@ko ;
+    rdfs:subClassOf ns2:OWLClass_9b10bca4_8dcc_47f8_90be_cd43cf9f6c9f .
+
+ns2:OWLClass_b68fb76e_13ba_423e_97f9_fc1336fa0dc1 a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:label "남자화장실"@ko ;
+    rdfs:subClassOf ns2:OWLClass_9b10bca4_8dcc_47f8_90be_cd43cf9f6c9f .
+
+ns2:OWLClass_c1832e6f_9cae_4ed9_b0b6_67da07529b06 a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:label "지상주차장"@ko ;
+    rdfs:subClassOf ns2:OWLClass_61ec26c2_356b_48d2_9b0f_140e7df2394d .
+
+ns2:OWLClass_e8364aa5_a49c_4af4_b773_05affb20484d a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:label "지하주차장"@ko ;
+    rdfs:subClassOf ns2:OWLClass_61ec26c2_356b_48d2_9b0f_140e7df2394d .
+
+ns2:OWLDataProperty_3e4a9846_9235_435e_a073_b60da3f2f898 a <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+    rdfs:label "규격정보"@ko ;
+    rdfs:domain ns2:OWLClass_746efd2a_2831_43aa_b912_7f6f8ca23668 ;
+    rdfs:range xsd:string .
+
+ns2:OWLDataProperty_715c9cb2_8e9c_42ee_9856_ac2847389dc6 a <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+    rdfs:label "상태정보"@ko ;
+    rdfs:domain ns2:OWLClass_746efd2a_2831_43aa_b912_7f6f8ca23668 ;
+    rdfs:range xsd:string .
+
+ns2:OWLDataProperty_8b6e952b_c168_4878_ae74_3c9fc3608309 a <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+    rdfs:label "시작시간"@ko ;
+    rdfs:domain ns2:OWLClass_baf85bb3_34a2_4e7a_813e_2d1280c80659 ;
+    rdfs:range xsd:integer .
+
+ns2:OWLDataProperty_af30292e_19b8_44ed_873f_e90370b04d31 a <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+    rdfs:label "소요시간정보"@ko ;
+    rdfs:domain ns2:OWLClass_baf85bb3_34a2_4e7a_813e_2d1280c80659 ;
+    rdfs:range xsd:integer .
+
+ns2:OWLDataProperty_db050ec7_a1c6_43b1_9d1d_22e454446b9f a <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+    rdfs:label "수량정보"@ko ;
+    rdfs:domain ns2:OWLClass_746efd2a_2831_43aa_b912_7f6f8ca23668 ;
+    rdfs:range xsd:integer .
+
+ns2:OWLDataProperty_ed7ab712_6f74_4322_831e_235ed4d09b74 a <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+    rdfs:label "종료시간"@ko ;
+    rdfs:domain ns2:OWLClass_baf85bb3_34a2_4e7a_813e_2d1280c80659 ;
+    rdfs:range xsd:integer .
+
+ns2:OWLNamedIndividual_10d31f69_a0b6_4369_9204_1d30db5b2cc9 a ns2:OWLClass_746efd2a_2831_43aa_b912_7f6f8ca23668,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "수배전반 부스바"@ko .
+
+ns2:OWLNamedIndividual_16eff299_4abe_42c0_b748_ab38d21a9b4f a ns2:OWLClass_5747c860_c510_4db0_abf2_dbdad526c9be,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "배수"@ko .
+
+ns2:OWLNamedIndividual_1e5514b7_f897_439f_bad5_131b914250e0 a ns2:OWLClass_746efd2a_2831_43aa_b912_7f6f8ca23668,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "분전반"@ko .
+
+ns2:OWLNamedIndividual_26e99ff6_02a6_4799_b7fe_99a3e5bb8cfd a ns2:OWLClass_baf85bb3_34a2_4e7a_813e_2d1280c80659,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "전기작업_4"@ko ;
+    ns2:OWLDataProperty_8b6e952b_c168_4878_ae74_3c9fc3608309 "09:00" ;
+    ns2:OWLDataProperty_ed7ab712_6f74_4322_831e_235ed4d09b74 "16:00" ;
+    ns2:OWLObjectProperty_43e123f7_6a14_443f_930b_0a5855f79c10 ns2:OWLNamedIndividual_17648fbe_5bb3_40ba_a34a_dc816408c13e ;
+    ns2:OWLObjectProperty_6f29c764_6dc1_4c10_8d3c_2ec7ab7a0d73 ns2:OWLNamedIndividual_95964c4d_5008_4c25_965a_8112d055619a ;
+    ns2:OWLObjectProperty_bb82af9f_b86b_45c1_ac88_d20b888a1f39 ns2:OWLNamedIndividual_1b6597e6_38e9_4b83_b521_06fe7f3f65cf,
+        ns2:OWLNamedIndividual_576f4c15_6ca3_4455_aab4_a47561bc5205,
+        ns2:OWLNamedIndividual_902c7872_67f1_4b71_bf6e_c8ce2316a1e2,
+        ns2:OWLNamedIndividual_bd349fa4_a4ce_47ba_8c0b_87fda0e7b20d ;
+    ns2:OWLObjectProperty_e69cd831_e927_4a4d_b0e6_b7afa1eef232 ns2:OWLNamedIndividual_31ace1a3_80c7_4cf1_8acc_b980e8b96749,
+        ns2:OWLNamedIndividual_96e402e0_8a3b_45f1_876d_3331317c815e ;
+    rdfs:comment "입주청소,화장실바닥몰타르시공" .
+
+ns2:OWLNamedIndividual_36c0e153_bf51_495a_ac6d_5cb8c7f566b6 a ns2:OWLClass_746efd2a_2831_43aa_b912_7f6f8ca23668,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "전등"@ko .
+
+ns2:OWLNamedIndividual_416d34f0_3ddf_4aa1_86c0_20d360b7d605 a ns2:OWLClass_ac5addd6_f978_43f4_816c_3d8d0ead4a77,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "새벽"@ko .
+
+ns2:OWLNamedIndividual_4519e291_dad7_4a6f_bfcb_7899bbd99136 a ns2:OWLClass_746efd2a_2831_43aa_b912_7f6f8ca23668,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "E/L"@ko .
+
+ns2:OWLNamedIndividual_518202cb_b8c9_49a9_9da2_a0ef4bb36613 a ns2:OWLClass_746efd2a_2831_43aa_b912_7f6f8ca23668,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "수배전반"@ko .
+
+ns2:OWLNamedIndividual_5e07b7e1_a929_4a3b_8a28_cbf0f9068443 a ns2:OWLClass_746efd2a_2831_43aa_b912_7f6f8ca23668,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "ALTS 배터리"@ko .
+
+ns2:OWLNamedIndividual_659113d5_fc0b_4f5f_96df_7e2ce7148489 a ns2:OWLClass_746efd2a_2831_43aa_b912_7f6f8ca23668,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "전등 전원라인"@ko .
+
+ns2:OWLNamedIndividual_69939b58_6966_4f25_bb16_5d3a066b3990 a ns2:OWLClass_22a9082d_91d9_4acb_b5a8_75aa140d67fe,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "옥상"@ko .
+
+ns2:OWLNamedIndividual_6c1ba4a2_8189_4607_9ce3_630d031e0c4e a ns2:OWLClass_5747c860_c510_4db0_abf2_dbdad526c9be,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "교체"@ko .
+
+ns2:OWLNamedIndividual_7454759f_2ac2_4e96_9692_d5d73de11a02 a ns2:OWLClass_10c177ba_3fca_42a8_85a6_98816fcefb27,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "이권수"@ko .
+
+ns2:OWLNamedIndividual_74f08a32_0bbf_4d55_a9d0_41e4779f15da a ns2:OWLClass_746efd2a_2831_43aa_b912_7f6f8ca23668,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "가스"@ko .
+
+ns2:OWLNamedIndividual_75a233d9_f213_4112_9ad1_62323720dc4d a ns2:OWLClass_baf85bb3_34a2_4e7a_813e_2d1280c80659,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "전기작업_7"@ko .
+
+ns2:OWLNamedIndividual_86c59c7e_dd3d_4b7a_8e86_0ad96735625f a ns2:OWLClass_10c177ba_3fca_42a8_85a6_98816fcefb27,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "최홍철"@ko .
+
+ns2:OWLNamedIndividual_97cca54c_02a7_4577_abb0_b818497c1844 a ns2:OWLClass_baf85bb3_34a2_4e7a_813e_2d1280c80659,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "전기작업_3"@ko ;
+    ns2:OWLDataProperty_8b6e952b_c168_4878_ae74_3c9fc3608309 "09:00" ;
+    ns2:OWLDataProperty_ed7ab712_6f74_4322_831e_235ed4d09b74 "16:00" ;
+    ns2:OWLObjectProperty_43e123f7_6a14_443f_930b_0a5855f79c10 ns2:OWLNamedIndividual_17648fbe_5bb3_40ba_a34a_dc816408c13e ;
+    ns2:OWLObjectProperty_68d3c1b0_b850_46cd_af44_9763cd67af39 ns2:OWLNamedIndividual_fa9dfd99_a920_4368_876f_30e07e65d68e ;
+    ns2:OWLObjectProperty_bb82af9f_b86b_45c1_ac88_d20b888a1f39 ns2:OWLNamedIndividual_4d3ef429_2971_4960_822f_d55ee4976204 ;
+    ns2:OWLObjectProperty_e69cd831_e927_4a4d_b0e6_b7afa1eef232 ns2:OWLNamedIndividual_31ace1a3_80c7_4cf1_8acc_b980e8b96749,
+        ns2:OWLNamedIndividual_96e402e0_8a3b_45f1_876d_3331317c815e ;
+    rdfs:comment "4층 원복공사관리_하이퍼라인" .
+
+ns2:OWLNamedIndividual_9c735f0d_f6f5_48c6_b6cb_d1dc9b8196d5 a ns2:OWLClass_746efd2a_2831_43aa_b912_7f6f8ca23668,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "센서"@ko .
+
+ns2:OWLNamedIndividual_a7a8ca85_a41e_4dd1_bdc7_b46c1b0ed12f a ns2:OWLClass_746efd2a_2831_43aa_b912_7f6f8ca23668,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "배터리"@ko .
+
+ns2:OWLNamedIndividual_aa309833_599b_4aa0_9925_48ebdb361adb a ns2:OWLClass_baf85bb3_34a2_4e7a_813e_2d1280c80659,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "전기작업_1"@ko ;
+    ns2:OWLDataProperty_8b6e952b_c168_4878_ae74_3c9fc3608309 "09:00" ;
+    ns2:OWLDataProperty_ed7ab712_6f74_4322_831e_235ed4d09b74 "23:00" ;
+    ns2:OWLObjectProperty_43e123f7_6a14_443f_930b_0a5855f79c10 ns2:OWLNamedIndividual_17648fbe_5bb3_40ba_a34a_dc816408c13e ;
+    ns2:OWLObjectProperty_68d3c1b0_b850_46cd_af44_9763cd67af39 ns2:OWLNamedIndividual_0c930cd2_1caf_4a4e_8f3d_878e985f0880,
+        ns2:OWLNamedIndividual_2079e8af_5b4a_4a61_99e0_b3008c184e82,
+        ns2:OWLNamedIndividual_2b4cbb4e_f475_4042_9771_cec28bc9ee7b,
+        ns2:OWLNamedIndividual_2ffae1c0_9c61_431d_954b_2ca59cd3b55d,
+        ns2:OWLNamedIndividual_30d570c0_4551_40e5_8638_8bc9717fa688,
+        ns2:OWLNamedIndividual_451bb615_02f7_4ca0_bf06_c5ea168a5ed9,
+        ns2:OWLNamedIndividual_4f5dd4f5_e3eb_4546_b995_afcf44efc608,
+        ns2:OWLNamedIndividual_616246c7_b102_4a85_b36e_dd029da8d267,
+        ns2:OWLNamedIndividual_70bb6cd4_ce48_4ce6_b72b_ab5d066fd575,
+        ns2:OWLNamedIndividual_90959550_7f5b_4ade_aa69_3e2dfce197a4,
+        ns2:OWLNamedIndividual_9c588132_5442_4a64_a65d_2dd6630a4a1f,
+        ns2:OWLNamedIndividual_9ed15085_3435_4658_b250_0de9bd850558,
+        ns2:OWLNamedIndividual_9fb32c72_087d_4ea2_b3b1_d55774184696,
+        ns2:OWLNamedIndividual_ac17b794_e808_4693_ab23_c90fa29d298e,
+        ns2:OWLNamedIndividual_b46ef24b_a552_4f21_8b44_28a6e27269c5,
+        ns2:OWLNamedIndividual_c0fee5ca_e598_44db_9b49_e681816e0998,
+        ns2:OWLNamedIndividual_cccdc7f6_7012_4e10_be95_3137ba0b166b,
+        ns2:OWLNamedIndividual_db934352_cb8b_44da_ab1c_c2ed695e883c,
+        ns2:OWLNamedIndividual_fa9dfd99_a920_4368_876f_30e07e65d68e,
+        ns2:OWLNamedIndividual_fb81140b_af3b_45b7_ab09_c709258ed6d5,
+        ns2:지하2층 ;
+    ns2:OWLObjectProperty_bb82af9f_b86b_45c1_ac88_d20b888a1f39 ns2:OWLNamedIndividual_a3ddcbbc_01ca_41a0_ba22_7909f317c435,
+        ns2:OWLNamedIndividual_a498b9bb_ebd7_4a13_8412_82466e90422b ;
+    ns2:OWLObjectProperty_e69cd831_e927_4a4d_b0e6_b7afa1eef232 ns2:OWLNamedIndividual_31ace1a3_80c7_4cf1_8acc_b980e8b96749,
+        ns2:OWLNamedIndividual_96e402e0_8a3b_45f1_876d_3331317c815e,
+        ns2:OWLNamedIndividual_fffb6d7d_bea2_4130_9e4e_eb21975aa3aa .
+
+ns2:OWLNamedIndividual_ade42583_b0cc_48b1_8855_fadd725a6ff6 a ns2:OWLClass_baf85bb3_34a2_4e7a_813e_2d1280c80659,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "전기작업_2"@ko ;
+    ns2:OWLDataProperty_8b6e952b_c168_4878_ae74_3c9fc3608309 "10:00" ;
+    ns2:OWLDataProperty_ed7ab712_6f74_4322_831e_235ed4d09b74 "11:00" ;
+    ns2:OWLObjectProperty_07dcc899_6fa6_42bd_941a_b09a27349a9f ns2:OWLNamedIndividual_79fb566f_0d86_4f0b_a2b9_4c0ee8185ea5 ;
+    ns2:OWLObjectProperty_43e123f7_6a14_443f_930b_0a5855f79c10 ns2:OWLNamedIndividual_17648fbe_5bb3_40ba_a34a_dc816408c13e ;
+    ns2:OWLObjectProperty_bb82af9f_b86b_45c1_ac88_d20b888a1f39 ns2:OWLNamedIndividual_6ee271a6_63a7_4416_9412_763b977e1244 ;
+    ns2:OWLObjectProperty_d2f0c9a4_b82d_43ce_acbc_4788036ca605 ns2:OWLNamedIndividual_5eabb2ab_1156_4504_9501_12eea295f1b1 ;
+    ns2:OWLObjectProperty_e69cd831_e927_4a4d_b0e6_b7afa1eef232 ns2:OWLNamedIndividual_96e402e0_8a3b_45f1_876d_3331317c815e ;
+    rdfs:comment "후지테크 E/L 2호기" .
+
+ns2:OWLNamedIndividual_b2a5ba2d_48d6_425d_aa25_8d3bcddf5ae9 a ns2:OWLClass_5747c860_c510_4db0_abf2_dbdad526c9be,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "서류작성"@ko .
+
+ns2:OWLNamedIndividual_b8114dd7_0750_49aa_bbef_95a13215384a a ns2:OWLClass_5747c860_c510_4db0_abf2_dbdad526c9be,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "갱신"@ko .
+
+ns2:OWLNamedIndividual_c7927c4f_9e2d_46af_a4a9_88d8d54485fe a ns2:OWLClass_baf85bb3_34a2_4e7a_813e_2d1280c80659,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "전기작업_5"@ko ;
+    ns2:OWLDataProperty_8b6e952b_c168_4878_ae74_3c9fc3608309 "09:00" ;
+    ns2:OWLDataProperty_ed7ab712_6f74_4322_831e_235ed4d09b74 "16:00" ;
+    ns2:OWLObjectProperty_43e123f7_6a14_443f_930b_0a5855f79c10 ns2:OWLNamedIndividual_17648fbe_5bb3_40ba_a34a_dc816408c13e ;
+    ns2:OWLObjectProperty_6f29c764_6dc1_4c10_8d3c_2ec7ab7a0d73 ns2:OWLNamedIndividual_a80f422e_0666_42f1_85f8_091177021a9e ;
+    ns2:OWLObjectProperty_bb82af9f_b86b_45c1_ac88_d20b888a1f39 ns2:OWLNamedIndividual_1ae8d62d_f218_4a2c_9180_fdd559b2fb02,
+        ns2:OWLNamedIndividual_3c4a03c8_6121_4954_84bb_c605a904b5dd,
+        ns2:OWLNamedIndividual_902c7872_67f1_4b71_bf6e_c8ce2316a1e2,
+        ns2:OWLNamedIndividual_fdd36a09_1781_4d81_8414_578cc7b309b2 .
+
+ns2:OWLNamedIndividual_cc03c428_a9be_406f_a649_534915239aff a ns2:OWLClass_5747c860_c510_4db0_abf2_dbdad526c9be,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "세팅"@ko .
+
+ns2:OWLNamedIndividual_d5100385_517a_4375_86d8_9da567e3a168 a ns2:OWLClass_baf85bb3_34a2_4e7a_813e_2d1280c80659,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "전기작업_6"@ko ;
+    ns2:OWLDataProperty_8b6e952b_c168_4878_ae74_3c9fc3608309 "09:00" ;
+    ns2:OWLDataProperty_ed7ab712_6f74_4322_831e_235ed4d09b74 "09:30" ;
+    ns2:OWLObjectProperty_07dcc899_6fa6_42bd_941a_b09a27349a9f ns2:OWLNamedIndividual_43e59e67_7139_4841_9b78_27c39831e3a4 ;
+    ns2:OWLObjectProperty_43e123f7_6a14_443f_930b_0a5855f79c10 ns2:OWLNamedIndividual_6bbb04a6_0874_4ad4_9f5a_6f1e71c09194,
+        ns2:OWLNamedIndividual_e3c26aef_070d_4208_9d42_b6694c491318,
+        ns2:OWLNamedIndividual_e6c8a1a9_a7d3_4659_a8fa_80a77f967a5d ;
+    ns2:OWLObjectProperty_6f29c764_6dc1_4c10_8d3c_2ec7ab7a0d73 ns2:OWLNamedIndividual_360613fe_757e_4357_a86f_59f17ba7fc0c ;
+    ns2:OWLObjectProperty_bb82af9f_b86b_45c1_ac88_d20b888a1f39 ns2:OWLNamedIndividual_002641f4_3c0b_47a8_983b_80476fd09986,
+        ns2:OWLNamedIndividual_eae59d81_7de4_472a_a33c_8d70912684af ;
+    ns2:OWLObjectProperty_d2f0c9a4_b82d_43ce_acbc_4788036ca605 ns2:OWLNamedIndividual_361365de_c6e4_45a2_a50d_56f12e355604 ;
+    ns2:OWLObjectProperty_e69cd831_e927_4a4d_b0e6_b7afa1eef232 ns2:OWLNamedIndividual_96e402e0_8a3b_45f1_876d_3331317c815e .
+
+ns2:OWLNamedIndividual_e8544d50_e89b_4456_bac5_e0da76796d5f a ns2:OWLClass_ac5addd6_f978_43f4_816c_3d8d0ead4a77,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "오전"@ko .
+
+ns2:OWLNamedIndividual_ec42b3a6_99bd_46fa_a20e_c5cc6d98d6f1 a ns2:OWLClass_746efd2a_2831_43aa_b912_7f6f8ca23668,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "점검카드"@ko .
+
+ns2:OWLNamedIndividual_ee55f7fa_6a95_47ec_aee3_c2575e2f1198 a ns2:OWLClass_746efd2a_2831_43aa_b912_7f6f8ca23668,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "소화기"@ko .
+
+ns2:OWLNamedIndividual_f9297a95_cb0c_4135_9fc8_272e08bdd393 a ns2:OWLClass_746efd2a_2831_43aa_b912_7f6f8ca23668,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "시스템박스"@ko .
+
+ns2:OWLNamedIndividual_fa05110f_1678_4af9_8b06_f0b17c1ff435 a ns2:OWLClass_10c177ba_3fca_42a8_85a6_98816fcefb27,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "박기준"@ko .
+
+ns2:OWLObjectProperty_07dcc899_6fa6_42bd_941a_b09a27349a9f a <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+    rdfs:label "원인이다"@ko ;
+    rdfs:subPropertyOf <http://www.w3.org/2002/07/owl#topObjectProperty> .
+
+ns2:OWLObjectProperty_43e123f7_6a14_443f_930b_0a5855f79c10 a <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+    rdfs:label "작업자이다"@ko .
+
+ns2:OWLObjectProperty_4e8d5c55_6a37_4e0d_b0e7_cc35c6b44f05 a <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+    rdfs:label "날짜이다"@ko .
+
+ns2:OWLObjectProperty_68d3c1b0_b850_46cd_af44_9763cd67af39 a <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+    rdfs:label "층이다"@ko .
+
+ns2:OWLObjectProperty_6f29c764_6dc1_4c10_8d3c_2ec7ab7a0d73 a <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+    rdfs:label "위치이다"@ko .
+
+ns2:OWLObjectProperty_87eb8221_f14b_48c5_8220_bf29d5cfdf24 a <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+    rdfs:label "자재(사용)이다"@ko ;
+    rdfs:subPropertyOf <http://www.w3.org/2002/07/owl#topObjectProperty> .
+
+ns2:OWLObjectProperty_bb82af9f_b86b_45c1_ac88_d20b888a1f39 a <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+    rdfs:label "작업유형이다"@ko ;
+    rdfs:subPropertyOf <http://www.w3.org/2002/07/owl#topObjectProperty> .
+
+ns2:OWLObjectProperty_d2f0c9a4_b82d_43ce_acbc_4788036ca605 a <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+    rdfs:label "~을(목표자재)"@ko .
+
+ns2:OWLObjectProperty_e69cd831_e927_4a4d_b0e6_b7afa1eef232 a <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+    rdfs:label "시간대이다"@ko .
+
+ns2:OWLObjectProperty_ea4023de_c94c_46fb_a1e3_f0b6c3e7cab4 a <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+    rdfs:label "상세작업필요"@ko .
+
+ns1:Material_137 a ns1:Material ;
+    ns1:hasName "LED직관등"^^xsd:string ;
+    ns1:hasQuantity "5.0"^^xsd:string ;
+    ns1:hasSpec "15W"^^xsd:string .
+
+ns1:Material_138 a ns1:Material ;
+    ns1:hasName "LED직관등"^^xsd:string ;
+    ns1:hasQuantity "2.0"^^xsd:string ;
+    ns1:hasSpec "15W"^^xsd:string .
+
+ns1:Material_150 a ns1:Material ;
+    ns1:hasName "LED직관등"^^xsd:string ;
+    ns1:hasQuantity "3.0"^^xsd:string ;
+    ns1:hasSpec "15W"^^xsd:string .
+
+ns1:Material_156 a ns1:Material ;
+    ns1:hasName "배터리"^^xsd:string ;
+    ns1:hasQuantity "3.0"^^xsd:string ;
+    ns1:hasSpec "9V"^^xsd:string .
+
+ns1:Material_164 a ns1:Material ;
+    ns1:hasName "장갑"^^xsd:string ;
+    ns1:hasQuantity "10.0"^^xsd:string ;
+    ns1:hasSpec "슈퍼그립"^^xsd:string .
+
+ns1:Material_165 a ns1:Material ;
+    ns1:hasName "배터리"^^xsd:string ;
+    ns1:hasQuantity "3.0"^^xsd:string ;
+    ns1:hasSpec "9V"^^xsd:string .
+
+ns1:Material_166 a ns1:Material ;
+    ns1:hasName "배터리"^^xsd:string ;
+    ns1:hasQuantity "30.0"^^xsd:string ;
+    ns1:hasSpec "AA 1.5V"^^xsd:string .
+
+ns1:Material_167 a ns1:Material ;
+    ns1:hasName "배터리"^^xsd:string ;
+    ns1:hasQuantity "4.0"^^xsd:string ;
+    ns1:hasSpec "AAA 1.5V"^^xsd:string .
+
+ns1:Material_168 a ns1:Material ;
+    ns1:hasName "감지기"^^xsd:string ;
+    ns1:hasQuantity "1.0"^^xsd:string ;
+    ns1:hasSpec "연기"^^xsd:string .
+
+ns1:Material_169 a ns1:Material ;
+    ns1:hasName "등기구"^^xsd:string ;
+    ns1:hasQuantity "1.0"^^xsd:string ;
+    ns1:hasSpec "다운라이트"^^xsd:string .
+
+ns1:Material_176 a ns1:Material ;
+    ns1:hasName "램프"^^xsd:string ;
+    ns1:hasQuantity "24.0"^^xsd:string ;
+    ns1:hasSpec "15W"^^xsd:string .
+
+ns1:Material_18 a ns1:Material ;
+    ns1:hasName "시스템박스 덮개"^^xsd:string ;
+    ns1:hasQuantity "1.0"^^xsd:string ;
+    ns1:hasSpec "대리석"^^xsd:string .
+
+ns1:Material_183 a ns1:Material ;
+    ns1:hasName "표시등"^^xsd:string ;
+    ns1:hasQuantity "1.0"^^xsd:string ;
+    ns1:hasSpec "24V,적색"^^xsd:string .
+
+ns1:Material_187 a ns1:Material ;
+    ns1:hasName "발신기"^^xsd:string ;
+    ns1:hasQuantity "2.0"^^xsd:string ;
+    ns1:hasSpec "DC24V"^^xsd:string .
+
+ns1:Material_236 a ns1:Material ;
+    ns1:hasName "LED직관등"^^xsd:string ;
+    ns1:hasQuantity "5.0"^^xsd:string ;
+    ns1:hasSpec "15W"^^xsd:string .
+
+ns1:Material_237 a ns1:Material ;
+    ns1:hasName "LED직관등"^^xsd:string ;
+    ns1:hasQuantity "2.0"^^xsd:string ;
+    ns1:hasSpec "15W"^^xsd:string .
+
+ns1:Material_24 a ns1:Material ;
+    ns1:hasName "9층~1층 소화기 월간점검 및 24년 소화기 월간점검 카드부착"^^xsd:string .
+
+ns1:Material_249 a ns1:Material ;
+    ns1:hasName "LED직관등"^^xsd:string ;
+    ns1:hasQuantity "3.0"^^xsd:string ;
+    ns1:hasSpec "15W"^^xsd:string .
+
+ns1:Material_255 a ns1:Material ;
+    ns1:hasName "배터리"^^xsd:string ;
+    ns1:hasQuantity "3.0"^^xsd:string ;
+    ns1:hasSpec "9V"^^xsd:string .
+
+ns1:Material_264 a ns1:Material ;
+    ns1:hasName "장갑"^^xsd:string ;
+    ns1:hasQuantity "10.0"^^xsd:string ;
+    ns1:hasSpec "슈퍼그립"^^xsd:string .
+
+ns1:Material_265 a ns1:Material ;
+    ns1:hasName "배터리"^^xsd:string ;
+    ns1:hasQuantity "3.0"^^xsd:string ;
+    ns1:hasSpec "9V"^^xsd:string .
+
+ns1:Material_266 a ns1:Material ;
+    ns1:hasName "배터리"^^xsd:string ;
+    ns1:hasQuantity "30.0"^^xsd:string ;
+    ns1:hasSpec "AA 1.5V"^^xsd:string .
+
+ns1:Material_267 a ns1:Material ;
+    ns1:hasName "배터리"^^xsd:string ;
+    ns1:hasQuantity "4.0"^^xsd:string ;
+    ns1:hasSpec "AAA 1.5V"^^xsd:string .
+
+ns1:Material_268 a ns1:Material ;
+    ns1:hasName "감지기"^^xsd:string ;
+    ns1:hasQuantity "1.0"^^xsd:string ;
+    ns1:hasSpec "연기"^^xsd:string .
+
+ns1:Material_269 a ns1:Material ;
+    ns1:hasName "등기구"^^xsd:string ;
+    ns1:hasQuantity "1.0"^^xsd:string ;
+    ns1:hasSpec "다운라이트"^^xsd:string .
+
+ns1:Material_27 a ns1:Material ;
+    ns1:hasName "LED직관등"^^xsd:string ;
+    ns1:hasQuantity "3.0"^^xsd:string ;
+    ns1:hasSpec "15W, 5700K"^^xsd:string .
+
+ns1:Material_276 a ns1:Material ;
+    ns1:hasName "램프"^^xsd:string ;
+    ns1:hasQuantity "24.0"^^xsd:string ;
+    ns1:hasSpec "15W"^^xsd:string .
+
+ns1:Material_283 a ns1:Material ;
+    ns1:hasName "표시등"^^xsd:string ;
+    ns1:hasQuantity "1.0"^^xsd:string ;
+    ns1:hasSpec "24V,적색"^^xsd:string .
+
+ns1:Material_287 a ns1:Material ;
+    ns1:hasName "발신기"^^xsd:string ;
+    ns1:hasQuantity "2.0"^^xsd:string ;
+    ns1:hasSpec "DC24V"^^xsd:string .
+
+ns1:Material_289 a ns1:Material ;
+    ns1:hasQuantity "1.0"^^xsd:string .
+
+ns1:Material_44 a ns1:Material ;
+    ns1:hasName "멀티콘센트"^^xsd:string ;
+    ns1:hasQuantity "5.0"^^xsd:string ;
+    ns1:hasSpec "2구,4구"^^xsd:string .
+
+ns1:Material_54 a ns1:Material ;
+    ns1:hasName "램프"^^xsd:string ;
+    ns1:hasQuantity "1.0"^^xsd:string ;
+    ns1:hasSpec "10W"^^xsd:string .
+
+ns1:Material_60 a ns1:Material ;
+    ns1:hasName "멀티콘센트"^^xsd:string ;
+    ns1:hasQuantity "1.0"^^xsd:string ;
+    ns1:hasSpec "4구 5m"^^xsd:string .
+
+ns1:Material_62 a ns1:Material ;
+    ns1:hasName "등기구"^^xsd:string ;
+    ns1:hasQuantity "1.0"^^xsd:string ;
+    ns1:hasSpec "LED원형15W"^^xsd:string .
+
+ns1:Material_69 a ns1:Material ;
+    ns1:hasName "10W"^^xsd:string ;
+    ns1:hasSpec "1"^^xsd:string .
+
+ns1:Plan_189 a ns1:Plan ;
+    ns1:planContent "옥상~B5층 2계단 청사측 전등 점등 확인 및 보수"^^xsd:string .
+
+ns1:Plan_190 a ns1:Plan ;
+    ns1:planContent "13층~7층 공조실 제어반점검 및 열화상측정"^^xsd:string .
+
+ns1:Plan_204 a ns1:Plan ;
+    ns1:planContent "전기자재 재고조사 및 자재창고 정리"^^xsd:string .
+
+ns1:Plan_211 a ns1:Plan ;
+    ns1:planContent "전층 시설물점검 및  주 야간 종합순찰"^^xsd:string .
+
+ns1:Plan_218 a ns1:Plan ;
+    ns1:planContent "전층 시설물점검 및 주 야간 종합순찰"^^xsd:string .
+
+ns1:Plan_220 a ns1:Plan ;
+    ns1:planContent "지하1층~지하4층 공조실 및 휀룸실 MCC판넬 부스바 열화상 측정"^^xsd:string .
+
+ns1:Plan_242 a ns1:Plan ;
+    ns1:planContent "14층제약 CEO구역,대회의실 전등 led램프 불량교체"^^xsd:string .
+
+ns1:Plan_258 a ns1:Plan ;
+    ns1:planContent "전층 시설물 점검 및  주 야간 종합순찰"^^xsd:string .
+
+ns1:Plan_260 a ns1:Plan ;
+    ns1:planContent "1층외곽 ALTS 배터리,가스압력 상태 점검"^^xsd:string .
+
+ns1:Plan_261 a ns1:Plan ;
+    ns1:planContent "2층 접견실(1.7.9 호실),3층 강당 빔프로젝트 작동상태 점검"^^xsd:string .
+
+ns1:Plan_264 a ns1:Plan ;
+    ns1:planContent "1층 외부 통신, 전기 맨홀 우수유입 점검 및 배수"^^xsd:string .
+
+ns1:Plan_265 a ns1:Plan ;
+    ns1:planContent "전층 CCTV 작동 및 녹화상태 확인"^^xsd:string .
+
+ns1:Plan_266 a ns1:Plan ;
+    ns1:planContent "1층 청사측 계단 등기구 점검 및 조명제어 세팅"^^xsd:string .
+
+ns1:Plan_267 a ns1:Plan ;
+    ns1:planContent "매장창고 천장 불량등기구 다운라이트 교체"^^xsd:string .
+
+ns1:Plan_289 a ns1:Plan ;
+    ns1:planContent "자동 입력"^^xsd:string .
+
+ns1:Time_1 a ns1:Time ;
+    ns1:timeValue "09:00~23:00"^^xsd:string .
+
+ns1:Time_10 a ns1:Time ;
+    ns1:timeValue "14:00~14:30"^^xsd:string .
+
+ns1:Time_100 a ns1:Time ;
+    ns1:timeValue "10:00~11:00"^^xsd:string .
+
+ns1:Time_101 a ns1:Time ;
+    ns1:timeValue "15:00~16:00"^^xsd:string .
+
+ns1:Time_102 a ns1:Time ;
+    ns1:timeValue "14:00~15:00"^^xsd:string .
+
+ns1:Time_103 a ns1:Time ;
+    ns1:timeValue "16:00~16:30"^^xsd:string .
+
+ns1:Time_104 a ns1:Time ;
+    ns1:timeValue "09:00~10:00"^^xsd:string .
+
+ns1:Time_105 a ns1:Time ;
+    ns1:timeValue "13:00~13:30,21:30~22:00"^^xsd:string .
+
+ns1:Time_106 a ns1:Time ;
+    ns1:timeValue "9:30~11:00"^^xsd:string .
+
+ns1:Time_107 a ns1:Time ;
+    ns1:timeValue "9:30~11:10"^^xsd:string .
+
+ns1:Time_108 a ns1:Time ;
+    ns1:timeValue "10:00~10:40"^^xsd:string .
+
+ns1:Time_109 a ns1:Time ;
+    ns1:timeValue "14:00~16:00"^^xsd:string .
+
+ns1:Time_11 a ns1:Time ;
+    ns1:timeValue "14:30~16:00"^^xsd:string .
+
+ns1:Time_110 a ns1:Time ;
+    ns1:timeValue "14:00~16:00"^^xsd:string .
+
+ns1:Time_111 a ns1:Time ;
+    ns1:timeValue "16:30~17:20"^^xsd:string .
+
+ns1:Time_112 a ns1:Time ;
+    ns1:timeValue "13:00~13:30,21:30~22:00"^^xsd:string .
+
+ns1:Time_113 a ns1:Time ;
+    ns1:timeValue "9:10~9:40"^^xsd:string .
+
+ns1:Time_114 a ns1:Time ;
+    ns1:timeValue "10:00~10:30"^^xsd:string .
+
+ns1:Time_115 a ns1:Time ;
+    ns1:timeValue "13:40~14:00"^^xsd:string .
+
+ns1:Time_116 a ns1:Time ;
+    ns1:timeValue "14:00~15:00"^^xsd:string .
+
+ns1:Time_117 a ns1:Time ;
+    ns1:timeValue "15:00~16:00"^^xsd:string .
+
+ns1:Time_118 a ns1:Time ;
+    ns1:timeValue "16:00~17:20"^^xsd:string .
+
+ns1:Time_119 a ns1:Time ;
+    ns1:timeValue "13:00~13:30,21:30~22:00"^^xsd:string .
+
+ns1:Time_12 a ns1:Time ;
+    ns1:timeValue "16:20~16:50"^^xsd:string .
+
+ns1:Time_120 a ns1:Time ;
+    ns1:timeValue "14:00~15:30/19:00~20:30"^^xsd:string .
+
+ns1:Time_121 a ns1:Time ;
+    ns1:timeValue "13:30~14:00'22:00~22:30"^^xsd:string .
+
+ns1:Time_122 a ns1:Time ;
+    ns1:timeValue "14:00~15:30/19:00~20:30"^^xsd:string .
+
+ns1:Time_123 a ns1:Time ;
+    ns1:timeValue "09:00 ~ 16:00"^^xsd:string .
+
+ns1:Time_124 a ns1:Time ;
+    ns1:timeValue "13:30~14:00'22:00~22:30"^^xsd:string .
+
+ns1:Time_125 a ns1:Time ;
+    ns1:timeValue "9:30~10:00"^^xsd:string .
+
+ns1:Time_126 a ns1:Time ;
+    ns1:timeValue "10:00~10:30"^^xsd:string .
+
+ns1:Time_127 a ns1:Time ;
+    ns1:timeValue "10:30~11:10"^^xsd:string .
+
+ns1:Time_129 a ns1:Time ;
+    ns1:timeValue "14:00~15:40"^^xsd:string .
+
+ns1:Time_13 a ns1:Time ;
+    ns1:timeValue "13:00~13:30/22:00~22;30"^^xsd:string .
+
+ns1:Time_130 a ns1:Time ;
+    ns1:timeValue "15:40~16:00"^^xsd:string .
+
+ns1:Time_131 a ns1:Time ;
+    ns1:timeValue "16:00~16:30"^^xsd:string .
+
+ns1:Time_132 a ns1:Time ;
+    ns1:timeValue "17:00~17:20"^^xsd:string .
+
+ns1:Time_133 a ns1:Time ;
+    ns1:timeValue "9:30~17:30"^^xsd:string .
+
+ns1:Time_134 a ns1:Time ;
+    ns1:timeValue "13:30~14:00'22:00~22:30"^^xsd:string .
+
+ns1:Time_135 a ns1:Time ;
+    ns1:timeValue "10:00~11:30"^^xsd:string .
+
+ns1:Time_136 a ns1:Time ;
+    ns1:timeValue "16:00~17:00"^^xsd:string .
+
+ns1:Time_137 a ns1:Time ;
+    ns1:timeValue "13:40~14:30"^^xsd:string .
+
+ns1:Time_138 a ns1:Time ;
+    ns1:timeValue "14:30~15:00"^^xsd:string .
+
+ns1:Time_139 a ns1:Time ;
+    ns1:timeValue "15:00~15:30"^^xsd:string .
+
+ns1:Time_14 a ns1:Time ;
+    ns1:timeValue "09:10~11:30"^^xsd:string .
+
+ns1:Time_140 a ns1:Time ;
+    ns1:timeValue "09:30~17:00"^^xsd:string .
+
+ns1:Time_141 a ns1:Time ;
+    ns1:timeValue "09\"20~17:30"^^xsd:string .
+
+ns1:Time_142 a ns1:Time ;
+    ns1:timeValue "13:00~13:30,21:30~22:00"^^xsd:string .
+
+ns1:Time_143 a ns1:Time ;
+    ns1:timeValue "10:00~11:00"^^xsd:string .
+
+ns1:Time_144 a ns1:Time ;
+    ns1:timeValue "09:30~17:00"^^xsd:string .
+
+ns1:Time_145 a ns1:Time ;
+    ns1:timeValue "13:00~13:30"^^xsd:string .
+
+ns1:Time_146 a ns1:Time ;
+    ns1:timeValue "15:00~16:00"^^xsd:string .
+
+ns1:Time_147 a ns1:Time ;
+    ns1:timeValue "09:20~17:30"^^xsd:string .
+
+ns1:Time_148 a ns1:Time ;
+    ns1:timeValue "13:30~14:00/22:00~22:30"^^xsd:string .
+
+ns1:Time_149 a ns1:Time ;
+    ns1:timeValue "10:00~10:30"^^xsd:string .
+
+ns1:Time_15 a ns1:Time ;
+    ns1:timeValue "14:10~17:40"^^xsd:string .
+
+ns1:Time_150 a ns1:Time ;
+    ns1:timeValue "10:40~11:10"^^xsd:string .
+
+ns1:Time_151 a ns1:Time ;
+    ns1:timeValue "14:10~14:30"^^xsd:string .
+
+ns1:Time_152 a ns1:Time ;
+    ns1:timeValue "14:40~16:00"^^xsd:string .
+
+ns1:Time_153 a ns1:Time ;
+    ns1:timeValue "16:10~17:00"^^xsd:string .
+
+ns1:Time_154 a ns1:Time ;
+    ns1:timeValue "13:30~14:00/22:00~22:30"^^xsd:string .
+
+ns1:Time_155 a ns1:Time ;
+    ns1:timeValue "09:20~17:30"^^xsd:string .
+
+ns1:Time_156 a ns1:Time ;
+    ns1:timeValue "9:20~9:50"^^xsd:string .
+
+ns1:Time_157 a ns1:Time ;
+    ns1:timeValue "10:00~11:10"^^xsd:string .
+
+ns1:Time_158 a ns1:Time ;
+    ns1:timeValue "13:30~14:00/22:00~22:30"^^xsd:string .
+
+ns1:Time_159 a ns1:Time ;
+    ns1:timeValue "14:00~15:30/19:00~20:30"^^xsd:string .
+
+ns1:Time_16 a ns1:Time ;
+    ns1:timeValue "10:00~10:30"^^xsd:string .
+
+ns1:Time_160 a ns1:Time ;
+    ns1:timeValue "13:30~14:00'22:00~22:30"^^xsd:string .
+
+ns1:Time_161 a ns1:Time ;
+    ns1:timeValue "14:30~15:30/19:00~20:30"^^xsd:string .
+
+ns1:Time_162 a ns1:Time ;
+    ns1:timeValue "10:30~11:00/14:00~14:30"^^xsd:string .
+
+ns1:Time_163 a ns1:Time ;
+    ns1:timeValue "13:30~14:00'22:00~22:30"^^xsd:string .
+
+ns1:Time_164 a ns1:Time ;
+    ns1:timeValue "9:30~10:00"^^xsd:string .
+
+ns1:Time_165 a ns1:Time ;
+    ns1:timeValue "10:00~10:30"^^xsd:string .
+
+ns1:Time_166 a ns1:Time ;
+    ns1:timeValue "10:30~11:10"^^xsd:string .
+
+ns1:Time_167 a ns1:Time ;
+    ns1:timeValue "13:30~15:00"^^xsd:string .
+
+ns1:Time_168 a ns1:Time ;
+    ns1:timeValue "15:10~15:30"^^xsd:string .
+
+ns1:Time_169 a ns1:Time ;
+    ns1:timeValue "15:30~16:10"^^xsd:string .
+
+ns1:Time_17 a ns1:Time ;
+    ns1:timeValue "10:30~11:10"^^xsd:string .
+
+ns1:Time_170 a ns1:Time ;
+    ns1:timeValue "16:30~16:50"^^xsd:string .
+
+ns1:Time_171 a ns1:Time ;
+    ns1:timeValue "17:00~17:30"^^xsd:string .
+
+ns1:Time_172 a ns1:Time ;
+    ns1:timeValue "9:30~11:10"^^xsd:string .
+
+ns1:Time_173 a ns1:Time ;
+    ns1:timeValue "14:00~15:00"^^xsd:string .
+
+ns1:Time_174 a ns1:Time ;
+    ns1:timeValue "13:00~13:30"^^xsd:string .
+
+ns1:Time_175 a ns1:Time ;
+    ns1:timeValue "13:30~14:00'22:00~22:30"^^xsd:string .
+
+ns1:Time_176 a ns1:Time ;
+    ns1:timeValue "09:00 ~10:00"^^xsd:string .
+
+ns1:Time_177 a ns1:Time ;
+    ns1:timeValue "09:30~10:30"^^xsd:string .
+
+ns1:Time_178 a ns1:Time ;
+    ns1:timeValue "14:00~16:00"^^xsd:string .
+
+ns1:Time_179 a ns1:Time ;
+    ns1:timeValue "16:10~16:50"^^xsd:string .
+
+ns1:Time_18 a ns1:Time ;
+    ns1:timeValue "14:30~15:00"^^xsd:string .
+
+ns1:Time_180 a ns1:Time ;
+    ns1:timeValue "17:00~17:30"^^xsd:string .
+
+ns1:Time_181 a ns1:Time ;
+    ns1:timeValue "13:30~14:00'22:00~22:30"^^xsd:string .
+
+ns1:Time_182 a ns1:Time ;
+    ns1:timeValue "10:00~11:00"^^xsd:string .
+
+ns1:Time_183 a ns1:Time ;
+    ns1:timeValue "14:20~15:00"^^xsd:string .
+
+ns1:Time_184 a ns1:Time ;
+    ns1:timeValue "15:00~15:30"^^xsd:string .
+
+ns1:Time_185 a ns1:Time ;
+    ns1:timeValue "15:30~16:00"^^xsd:string .
+
+ns1:Time_186 a ns1:Time ;
+    ns1:timeValue "09:30~15:00"^^xsd:string .
+
+ns1:Time_187 a ns1:Time ;
+    ns1:timeValue "16:00~16:40"^^xsd:string .
+
+ns1:Time_188 a ns1:Time ;
+    ns1:timeValue "13:00~13:30,21:30~22:00"^^xsd:string .
+
+ns1:Time_189 a ns1:Time ;
+    ns1:timeValue "09:20~10:20"^^xsd:string .
+
+ns1:Time_19 a ns1:Time ;
+    ns1:timeValue "15:00~16:00"^^xsd:string .
+
+ns1:Time_190 a ns1:Time ;
+    ns1:timeValue "10:00~11:00"^^xsd:string .
+
+ns1:Time_191 a ns1:Time ;
+    ns1:timeValue "14:00~15:00"^^xsd:string .
+
+ns1:Time_192 a ns1:Time ;
+    ns1:timeValue "13:00~14:00"^^xsd:string .
+
+ns1:Time_193 a ns1:Time ;
+    ns1:timeValue "15:00~16:00"^^xsd:string .
+
+ns1:Time_194 a ns1:Time ;
+    ns1:timeValue "16:00~17:00"^^xsd:string .
+
+ns1:Time_195 a ns1:Time ;
+    ns1:timeValue "09:20~17:40"^^xsd:string .
+
+ns1:Time_197 a ns1:Time ;
+    ns1:timeValue "09:30~10:00"^^xsd:string .
+
+ns1:Time_198 a ns1:Time ;
+    ns1:timeValue "10:00~11:00"^^xsd:string .
+
+ns1:Time_199 a ns1:Time ;
+    ns1:timeValue "15:00~16:00"^^xsd:string .
+
+ns1:Time_2 a ns1:Time ;
+    ns1:timeValue "10:00~11:00"^^xsd:string .
+
+ns1:Time_20 a ns1:Time ;
+    ns1:timeValue "16:10~17:00"^^xsd:string .
+
+ns1:Time_200 a ns1:Time ;
+    ns1:timeValue "14:00~15:00"^^xsd:string .
+
+ns1:Time_201 a ns1:Time ;
+    ns1:timeValue "16:00~16:30"^^xsd:string .
+
+ns1:Time_202 a ns1:Time ;
+    ns1:timeValue "09:00~10:00"^^xsd:string .
+
+ns1:Time_203 a ns1:Time ;
+    ns1:timeValue "13:00~13:30,21:30~22:00"^^xsd:string .
+
+ns1:Time_204 a ns1:Time ;
+    ns1:timeValue "9:30~11:00"^^xsd:string .
+
+ns1:Time_205 a ns1:Time ;
+    ns1:timeValue "9:30~11:10"^^xsd:string .
+
+ns1:Time_206 a ns1:Time ;
+    ns1:timeValue "10:00~10:40"^^xsd:string .
+
+ns1:Time_207 a ns1:Time ;
+    ns1:timeValue "14:00~16:00"^^xsd:string .
+
+ns1:Time_208 a ns1:Time ;
+    ns1:timeValue "14:00~16:00"^^xsd:string .
+
+ns1:Time_209 a ns1:Time ;
+    ns1:timeValue "16:30~17:20"^^xsd:string .
+
+ns1:Time_21 a ns1:Time ;
+    ns1:timeValue "9:30~16:00"^^xsd:string .
+
+ns1:Time_210 a ns1:Time ;
+    ns1:timeValue "13:00~13:30,21:30~22:00"^^xsd:string .
+
+ns1:Time_211 a ns1:Time ;
+    ns1:timeValue "9:10~9:40"^^xsd:string .
+
+ns1:Time_212 a ns1:Time ;
+    ns1:timeValue "10:00~10:30"^^xsd:string .
+
+ns1:Time_213 a ns1:Time ;
+    ns1:timeValue "13:40~14:00"^^xsd:string .
+
+ns1:Time_214 a ns1:Time ;
+    ns1:timeValue "14:00~15:00"^^xsd:string .
+
+ns1:Time_215 a ns1:Time ;
+    ns1:timeValue "15:00~16:00"^^xsd:string .
+
+ns1:Time_216 a ns1:Time ;
+    ns1:timeValue "16:00~17:20"^^xsd:string .
+
+ns1:Time_217 a ns1:Time ;
+    ns1:timeValue "13:00~13:30,21:30~22:00"^^xsd:string .
+
+ns1:Time_218 a ns1:Time ;
+    ns1:timeValue "14:00~15:30/19:00~20:30"^^xsd:string .
+
+ns1:Time_219 a ns1:Time ;
+    ns1:timeValue "13:30~14:00'22:00~22:30"^^xsd:string .
+
+ns1:Time_22 a ns1:Time ;
+    ns1:timeValue "16:00~17:20"^^xsd:string .
+
+ns1:Time_220 a ns1:Time ;
+    ns1:timeValue "14:00~15:30/19:00~20:30"^^xsd:string .
+
+ns1:Time_221 a ns1:Time ;
+    ns1:timeValue "09:00 ~ 16:00"^^xsd:string .
+
+ns1:Time_223 a ns1:Time ;
+    ns1:timeValue "13:30~14:00'22:00~22:30"^^xsd:string .
+
+ns1:Time_224 a ns1:Time ;
+    ns1:timeValue "9:30~10:00"^^xsd:string .
+
+ns1:Time_225 a ns1:Time ;
+    ns1:timeValue "10:00~10:30"^^xsd:string .
+
+ns1:Time_226 a ns1:Time ;
+    ns1:timeValue "10:30~11:10"^^xsd:string .
+
+ns1:Time_228 a ns1:Time ;
+    ns1:timeValue "14:00~15:40"^^xsd:string .
+
+ns1:Time_229 a ns1:Time ;
+    ns1:timeValue "15:40~16:00"^^xsd:string .
+
+ns1:Time_23 a ns1:Time ;
+    ns1:timeValue "13:00~13:30/22:00~22;30"^^xsd:string .
+
+ns1:Time_230 a ns1:Time ;
+    ns1:timeValue "16:00~16:30"^^xsd:string .
+
+ns1:Time_231 a ns1:Time ;
+    ns1:timeValue "17:00~17:20"^^xsd:string .
+
+ns1:Time_232 a ns1:Time ;
+    ns1:timeValue "9:30~17:30"^^xsd:string .
+
+ns1:Time_233 a ns1:Time ;
+    ns1:timeValue "13:30~14:00'22:00~22:30"^^xsd:string .
+
+ns1:Time_234 a ns1:Time ;
+    ns1:timeValue "10:00~11:30"^^xsd:string .
+
+ns1:Time_235 a ns1:Time ;
+    ns1:timeValue "16:00~17:00"^^xsd:string .
+
+ns1:Time_236 a ns1:Time ;
+    ns1:timeValue "13:40~14:30"^^xsd:string .
+
+ns1:Time_237 a ns1:Time ;
+    ns1:timeValue "14:30~15:00"^^xsd:string .
+
+ns1:Time_238 a ns1:Time ;
+    ns1:timeValue "15:00~15:30"^^xsd:string .
+
+ns1:Time_239 a ns1:Time ;
+    ns1:timeValue "09:30~17:00"^^xsd:string .
+
+ns1:Time_24 a ns1:Time ;
+    ns1:timeValue "09:20~10:00"^^xsd:string .
+
+ns1:Time_240 a ns1:Time ;
+    ns1:timeValue "09\"20~17:30"^^xsd:string .
+
+ns1:Time_241 a ns1:Time ;
+    ns1:timeValue "13:00~13:30,21:30~22:00"^^xsd:string .
+
+ns1:Time_242 a ns1:Time ;
+    ns1:timeValue "10:00~11:00"^^xsd:string .
+
+ns1:Time_243 a ns1:Time ;
+    ns1:timeValue "09:30~17:00"^^xsd:string .
+
+ns1:Time_244 a ns1:Time ;
+    ns1:timeValue "13:00~13:30"^^xsd:string .
+
+ns1:Time_245 a ns1:Time ;
+    ns1:timeValue "15:00~16:00"^^xsd:string .
+
+ns1:Time_246 a ns1:Time ;
+    ns1:timeValue "09:20~17:30"^^xsd:string .
+
+ns1:Time_247 a ns1:Time ;
+    ns1:timeValue "13:30~14:00/22:00~22:30"^^xsd:string .
+
+ns1:Time_248 a ns1:Time ;
+    ns1:timeValue "10:00~10:30"^^xsd:string .
+
+ns1:Time_249 a ns1:Time ;
+    ns1:timeValue "10:40~11:10"^^xsd:string .
+
+ns1:Time_25 a ns1:Time ;
+    ns1:timeValue "15:00~16:00"^^xsd:string .
+
+ns1:Time_250 a ns1:Time ;
+    ns1:timeValue "14:10~14:30"^^xsd:string .
+
+ns1:Time_251 a ns1:Time ;
+    ns1:timeValue "14:40~16:00"^^xsd:string .
+
+ns1:Time_252 a ns1:Time ;
+    ns1:timeValue "16:10~17:00"^^xsd:string .
+
+ns1:Time_253 a ns1:Time ;
+    ns1:timeValue "13:30~14:00/22:00~22:30"^^xsd:string .
+
+ns1:Time_254 a ns1:Time ;
+    ns1:timeValue "09:20~17:30"^^xsd:string .
+
+ns1:Time_255 a ns1:Time ;
+    ns1:timeValue "9:20~9:50"^^xsd:string .
+
+ns1:Time_256 a ns1:Time ;
+    ns1:timeValue "10:00~11:10"^^xsd:string .
+
+ns1:Time_257 a ns1:Time ;
+    ns1:timeValue "13:30~14:00/22:00~22:30"^^xsd:string .
+
+ns1:Time_258 a ns1:Time ;
+    ns1:timeValue "14:00~15:30/19:00~20:30"^^xsd:string .
+
+ns1:Time_259 a ns1:Time ;
+    ns1:timeValue "13:30~14:00'22:00~22:30"^^xsd:string .
+
+ns1:Time_26 a ns1:Time ;
+    ns1:timeValue "10:00~11:20"^^xsd:string .
+
+ns1:Time_260 a ns1:Time ;
+    ns1:timeValue "14:30~15:30/19:00~20:30"^^xsd:string .
+
+ns1:Time_261 a ns1:Time ;
+    ns1:timeValue "10:30~11:00/14:00~14:30"^^xsd:string .
+
+ns1:Time_263 a ns1:Time ;
+    ns1:timeValue "13:30~14:00'22:00~22:30"^^xsd:string .
+
+ns1:Time_264 a ns1:Time ;
+    ns1:timeValue "9:30~10:00"^^xsd:string .
+
+ns1:Time_265 a ns1:Time ;
+    ns1:timeValue "10:00~10:30"^^xsd:string .
+
+ns1:Time_266 a ns1:Time ;
+    ns1:timeValue "10:30~11:10"^^xsd:string .
+
+ns1:Time_267 a ns1:Time ;
+    ns1:timeValue "13:30~15:00"^^xsd:string .
+
+ns1:Time_268 a ns1:Time ;
+    ns1:timeValue "15:10~15:30"^^xsd:string .
+
+ns1:Time_269 a ns1:Time ;
+    ns1:timeValue "15:30~16:10"^^xsd:string .
+
+ns1:Time_27 a ns1:Time ;
+    ns1:timeValue "14:00~15:00"^^xsd:string .
+
+ns1:Time_270 a ns1:Time ;
+    ns1:timeValue "16:30~16:50"^^xsd:string .
+
+ns1:Time_271 a ns1:Time ;
+    ns1:timeValue "17:00~17:30"^^xsd:string .
+
+ns1:Time_272 a ns1:Time ;
+    ns1:timeValue "9:30~11:10"^^xsd:string .
+
+ns1:Time_273 a ns1:Time ;
+    ns1:timeValue "14:00~15:00"^^xsd:string .
+
+ns1:Time_274 a ns1:Time ;
+    ns1:timeValue "13:00~13:30"^^xsd:string .
+
+ns1:Time_275 a ns1:Time ;
+    ns1:timeValue "13:30~14:00'22:00~22:30"^^xsd:string .
+
+ns1:Time_276 a ns1:Time ;
+    ns1:timeValue "09:00 ~10:00"^^xsd:string .
+
+ns1:Time_277 a ns1:Time ;
+    ns1:timeValue "09:30~10:30"^^xsd:string .
+
+ns1:Time_278 a ns1:Time ;
+    ns1:timeValue "14:00~16:00"^^xsd:string .
+
+ns1:Time_279 a ns1:Time ;
+    ns1:timeValue "16:10~16:50"^^xsd:string .
+
+ns1:Time_28 a ns1:Time ;
+    ns1:timeValue "13:00~13:30,21:30~22:00"^^xsd:string .
+
+ns1:Time_280 a ns1:Time ;
+    ns1:timeValue "17:00~17:30"^^xsd:string .
+
+ns1:Time_281 a ns1:Time ;
+    ns1:timeValue "13:30~14:00'22:00~22:30"^^xsd:string .
+
+ns1:Time_282 a ns1:Time ;
+    ns1:timeValue "10:00~11:00"^^xsd:string .
+
+ns1:Time_283 a ns1:Time ;
+    ns1:timeValue "14:20~15:00"^^xsd:string .
+
+ns1:Time_284 a ns1:Time ;
+    ns1:timeValue "15:00~15:30"^^xsd:string .
+
+ns1:Time_285 a ns1:Time ;
+    ns1:timeValue "15:30~16:00"^^xsd:string .
+
+ns1:Time_286 a ns1:Time ;
+    ns1:timeValue "09:30~15:00"^^xsd:string .
+
+ns1:Time_287 a ns1:Time ;
+    ns1:timeValue "16:00~16:40"^^xsd:string .
+
+ns1:Time_288 a ns1:Time ;
+    ns1:timeValue "13:00~13:30,21:30~22:00"^^xsd:string .
+
+ns1:Time_289 a ns1:Time ;
+    ns1:timeValue "2025-06-17 14:54:14"^^xsd:string .
+
+ns1:Time_29 a ns1:Time ;
+    ns1:timeValue "09:00~11:30"^^xsd:string .
+
+ns1:Time_3 a ns1:Time ;
+    ns1:timeValue "09:00~16:00"^^xsd:string .
+
+ns1:Time_30 a ns1:Time ;
+    ns1:timeValue "09:00~11:30"^^xsd:string .
+
+ns1:Time_31 a ns1:Time ;
+    ns1:timeValue "13:10~17:40"^^xsd:string .
+
+ns1:Time_32 a ns1:Time ;
+    ns1:timeValue "9:30~10:00"^^xsd:string .
+
+ns1:Time_33 a ns1:Time ;
+    ns1:timeValue "10:10~10:40"^^xsd:string .
+
+ns1:Time_34 a ns1:Time ;
+    ns1:timeValue "10:50~11:20"^^xsd:string .
+
+ns1:Time_35 a ns1:Time ;
+    ns1:timeValue "13:30~14:20/16:00~16:30"^^xsd:string .
+
+ns1:Time_36 a ns1:Time ;
+    ns1:timeValue "14:25~16:00"^^xsd:string .
+
+ns1:Time_37 a ns1:Time ;
+    ns1:timeValue "16:00~17:40"^^xsd:string .
+
+ns1:Time_39 a ns1:Time ;
+    ns1:timeValue "09:20~17:40"^^xsd:string .
+
+ns1:Time_4 a ns1:Time ;
+    ns1:timeValue "09:00~16:00"^^xsd:string .
+
+ns1:Time_40 a ns1:Time ;
+    ns1:timeValue "13:00~13:30,21:30~22:00"^^xsd:string .
+
+ns1:Time_41 a ns1:Time ;
+    ns1:timeValue "09:00~18:00,20:00~22:00"^^xsd:string .
+
+ns1:Time_42 a ns1:Time ;
+    ns1:timeValue "09:00~18:00"^^xsd:string .
+
+ns1:Time_43 a ns1:Time ;
+    ns1:timeValue "13:00~13:30,21:30~22:00"^^xsd:string .
+
+ns1:Time_44 a ns1:Time ;
+    ns1:timeValue "09:00~11:30"^^xsd:string .
+
+ns1:Time_45 a ns1:Time ;
+    ns1:timeValue "10:00~11:00"^^xsd:string .
+
+ns1:Time_46 a ns1:Time ;
+    ns1:timeValue "13:40~15:10"^^xsd:string .
+
+ns1:Time_47 a ns1:Time ;
+    ns1:timeValue "15:30~16:00"^^xsd:string .
+
+ns1:Time_48 a ns1:Time ;
+    ns1:timeValue "16:10~17:30"^^xsd:string .
+
+ns1:Time_49 a ns1:Time ;
+    ns1:timeValue "13:00~13:30/21:30~22:00"^^xsd:string .
+
+ns1:Time_5 a ns1:Time ;
+    ns1:timeValue "09:00~16:00"^^xsd:string .
+
+ns1:Time_50 a ns1:Time ;
+    ns1:timeValue "9:30~10:00"^^xsd:string .
+
+ns1:Time_51 a ns1:Time ;
+    ns1:timeValue "10:00~11:10/13:30~14:00"^^xsd:string .
+
+ns1:Time_52 a ns1:Time ;
+    ns1:timeValue "14:00~15:00"^^xsd:string .
+
+ns1:Time_53 a ns1:Time ;
+    ns1:timeValue "15:00~15:30"^^xsd:string .
+
+ns1:Time_54 a ns1:Time ;
+    ns1:timeValue "15:00~15:30"^^xsd:string .
+
+ns1:Time_55 a ns1:Time ;
+    ns1:timeValue "15:30~16:00"^^xsd:string .
+
+ns1:Time_56 a ns1:Time ;
+    ns1:timeValue "16:00~16:30"^^xsd:string .
+
+ns1:Time_57 a ns1:Time ;
+    ns1:timeValue "13:00~13:30/21:30~22:00"^^xsd:string .
+
+ns1:Time_58 a ns1:Time ;
+    ns1:timeValue "9:30~10:00"^^xsd:string .
+
+ns1:Time_59 a ns1:Time ;
+    ns1:timeValue "10:00~10:30"^^xsd:string .
+
+ns1:Time_6 a ns1:Time ;
+    ns1:timeValue "09:00~09:30"^^xsd:string .
+
+ns1:Time_60 a ns1:Time ;
+    ns1:timeValue "10:30~11:20"^^xsd:string .
+
+ns1:Time_61 a ns1:Time ;
+    ns1:timeValue "14:00~15:30"^^xsd:string .
+
+ns1:Time_62 a ns1:Time ;
+    ns1:timeValue "15:50~16:20"^^xsd:string .
+
+ns1:Time_63 a ns1:Time ;
+    ns1:timeValue "9:30~11:30/16:00~18:00"^^xsd:string .
+
+ns1:Time_64 a ns1:Time ;
+    ns1:timeValue "13:00~13:30/21:30~22:00"^^xsd:string .
+
+ns1:Time_66 a ns1:Time ;
+    ns1:timeValue "10:00~11:00"^^xsd:string .
+
+ns1:Time_67 a ns1:Time ;
+    ns1:timeValue "13:30~14:30"^^xsd:string .
+
+ns1:Time_68 a ns1:Time ;
+    ns1:timeValue "14:30~16:00"^^xsd:string .
+
+ns1:Time_69 a ns1:Time ;
+    ns1:timeValue "램프"^^xsd:string .
+
+ns1:Time_7 a ns1:Time ;
+    ns1:timeValue "09:30~10:00"^^xsd:string .
+
+ns1:Time_70 a ns1:Time ;
+    ns1:timeValue "09:00~10:00"^^xsd:string .
+
+ns1:Time_71 a ns1:Time ;
+    ns1:timeValue "16:00~16:30"^^xsd:string .
+
+ns1:Time_72 a ns1:Time ;
+    ns1:timeValue "13:00~13:30/21:30~22:00"^^xsd:string .
+
+ns1:Time_73 a ns1:Time ;
+    ns1:timeValue "10:00~11:00"^^xsd:string .
+
+ns1:Time_74 a ns1:Time ;
+    ns1:timeValue "14:00~15:30"^^xsd:string .
+
+ns1:Time_75 a ns1:Time ;
+    ns1:timeValue "13:20~13:50"^^xsd:string .
+
+ns1:Time_76 a ns1:Time ;
+    ns1:timeValue "16:00~17:00"^^xsd:string .
+
+ns1:Time_77 a ns1:Time ;
+    ns1:timeValue "15:30~16:00"^^xsd:string .
+
+ns1:Time_78 a ns1:Time ;
+    ns1:timeValue "09:00~18:00"^^xsd:string .
+
+ns1:Time_79 a ns1:Time ;
+    ns1:timeValue "09:20~17:40"^^xsd:string .
+
+ns1:Time_8 a ns1:Time ;
+    ns1:timeValue "10:00~11:30"^^xsd:string .
+
+ns1:Time_80 a ns1:Time ;
+    ns1:timeValue "09:00~18:00,20:00~22:00"^^xsd:string .
+
+ns1:Time_81 a ns1:Time ;
+    ns1:timeValue "09:00~10:19"^^xsd:string .
+
+ns1:Time_82 a ns1:Time ;
+    ns1:timeValue "13:00~13:30,21:30~22:00"^^xsd:string .
+
+ns1:Time_83 a ns1:Time ;
+    ns1:timeValue "09:00~18:00,20:00~22:00"^^xsd:string .
+
+ns1:Time_84 a ns1:Time ;
+    ns1:timeValue "21:30~22:00"^^xsd:string .
+
+ns1:Time_85 a ns1:Time ;
+    ns1:timeValue "10:00~11:00"^^xsd:string .
+
+ns1:Time_86 a ns1:Time ;
+    ns1:timeValue "16:00~16:30"^^xsd:string .
+
+ns1:Time_87 a ns1:Time ;
+    ns1:timeValue "14:00~16:00"^^xsd:string .
+
+ns1:Time_88 a ns1:Time ;
+    ns1:timeValue "14:00~16:00"^^xsd:string .
+
+ns1:Time_89 a ns1:Time ;
+    ns1:timeValue "09:20~17:40"^^xsd:string .
+
+ns1:Time_9 a ns1:Time ;
+    ns1:timeValue "13:00~14:00"^^xsd:string .
+
+ns1:Time_90 a ns1:Time ;
+    ns1:timeValue "13:00~13:30,21:30~22:00"^^xsd:string .
+
+ns1:Time_91 a ns1:Time ;
+    ns1:timeValue "09:20~10:20"^^xsd:string .
+
+ns1:Time_92 a ns1:Time ;
+    ns1:timeValue "10:00~11:00"^^xsd:string .
+
+ns1:Time_93 a ns1:Time ;
+    ns1:timeValue "14:00~15:00"^^xsd:string .
+
+ns1:Time_94 a ns1:Time ;
+    ns1:timeValue "13:00~14:00"^^xsd:string .
+
+ns1:Time_95 a ns1:Time ;
+    ns1:timeValue "15:00~16:00"^^xsd:string .
+
+ns1:Time_96 a ns1:Time ;
+    ns1:timeValue "16:00~17:00"^^xsd:string .
+
+ns1:Time_97 a ns1:Time ;
+    ns1:timeValue "09:20~17:40"^^xsd:string .
+
+ns1:Time_99 a ns1:Time ;
+    ns1:timeValue "09:30~10:00"^^xsd:string .
+
+ns1:Worker_%EA%B9%80%EC%A2%85%EC%B2%A0 a ns1:Worker .
+
+ns1:Worker_%EC%8B%9C%EC%8A%A4%ED%85%9C a ns1:Worker .
+
+<http://example.org/fms#Worker_10%3A30~11%3A10> a ns1:Worker .
+
+ns2:OWLClass_5ffe8321_ed00_4c1b_83a4_e822a3c0a31e a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:label "청사"@ko ;
+    rdfs:subClassOf ns2:OWLClass_4aeee69e_5b92_468b_9b28_a8f3e8a66322 .
+
+ns2:OWLClass_cef15ee1_7240_479f_a351_2e114b078bdf a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:label "사무실"@ko ;
+    rdfs:subClassOf ns2:OWLClass_4aeee69e_5b92_468b_9b28_a8f3e8a66322 .
+
+ns2:OWLNamedIndividual_002641f4_3c0b_47a8_983b_80476fd09986 a ns2:OWLClass_5747c860_c510_4db0_abf2_dbdad526c9be,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "보수"@ko .
+
+ns2:OWLNamedIndividual_0c930cd2_1caf_4a4e_8f3d_878e985f0880 a ns2:OWLClass_22a9082d_91d9_4acb_b5a8_75aa140d67fe,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "지하5층"@ko .
+
+ns2:OWLNamedIndividual_1ae8d62d_f218_4a2c_9180_fdd559b2fb02 a ns2:OWLClass_5747c860_c510_4db0_abf2_dbdad526c9be,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "카페트시공"@ko .
+
+ns2:OWLNamedIndividual_1b6597e6_38e9_4b83_b521_06fe7f3f65cf a ns2:OWLClass_5747c860_c510_4db0_abf2_dbdad526c9be,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "청소"@ko .
+
+ns2:OWLNamedIndividual_2079e8af_5b4a_4a61_99e0_b3008c184e82 a ns2:OWLClass_22a9082d_91d9_4acb_b5a8_75aa140d67fe,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "지하3층"@ko .
+
+ns2:OWLNamedIndividual_2b4cbb4e_f475_4042_9771_cec28bc9ee7b a ns2:OWLClass_22a9082d_91d9_4acb_b5a8_75aa140d67fe,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "6층"@ko .
+
+ns2:OWLNamedIndividual_2ffae1c0_9c61_431d_954b_2ca59cd3b55d a ns2:OWLClass_22a9082d_91d9_4acb_b5a8_75aa140d67fe,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "5층"@ko .
+
+ns2:OWLNamedIndividual_30d570c0_4551_40e5_8638_8bc9717fa688 a ns2:OWLClass_22a9082d_91d9_4acb_b5a8_75aa140d67fe,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "지하1층"@ko .
+
+ns2:OWLNamedIndividual_360613fe_757e_4357_a86f_59f17ba7fc0c a ns2:OWLClass_5ffe8321_ed00_4c1b_83a4_e822a3c0a31e,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "로비"@ko .
+
+ns2:OWLNamedIndividual_361365de_c6e4_45a2_a50d_56f12e355604 a ns2:OWLClass_746efd2a_2831_43aa_b912_7f6f8ca23668,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "회전문"@ko .
+
+ns2:OWLNamedIndividual_3c4a03c8_6121_4954_84bb_c605a904b5dd a ns2:OWLClass_5747c860_c510_4db0_abf2_dbdad526c9be,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "타일철거"@ko .
+
+ns2:OWLNamedIndividual_43e59e67_7139_4841_9b78_27c39831e3a4 a ns2:OWLClass_db116e26_4554_4113_a562_cdd4d118738f,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "오작동"@ko .
+
+ns2:OWLNamedIndividual_451bb615_02f7_4ca0_bf06_c5ea168a5ed9 a ns2:OWLClass_22a9082d_91d9_4acb_b5a8_75aa140d67fe,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "14층"@ko .
+
+ns2:OWLNamedIndividual_4d3ef429_2971_4960_822f_d55ee4976204 a ns2:OWLClass_5747c860_c510_4db0_abf2_dbdad526c9be,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "관리감독"@ko .
+
+ns2:OWLNamedIndividual_4f5dd4f5_e3eb_4546_b995_afcf44efc608 a ns2:OWLClass_22a9082d_91d9_4acb_b5a8_75aa140d67fe,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "로비층"@ko .
+
+ns2:OWLNamedIndividual_576f4c15_6ca3_4455_aab4_a47561bc5205 a ns2:OWLClass_5747c860_c510_4db0_abf2_dbdad526c9be,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "몰타르시공"@ko .
+
+ns2:OWLNamedIndividual_5eabb2ab_1156_4504_9501_12eea295f1b1 a ns2:OWLClass_746efd2a_2831_43aa_b912_7f6f8ca23668,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "E/L 2호기"@ko .
+
+ns2:OWLNamedIndividual_616246c7_b102_4a85_b36e_dd029da8d267 a ns2:OWLClass_22a9082d_91d9_4acb_b5a8_75aa140d67fe,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "16층"@ko .
+
+ns2:OWLNamedIndividual_6bbb04a6_0874_4ad4_9f5a_6f1e71c09194 a ns2:OWLClass_10c177ba_3fca_42a8_85a6_98816fcefb27,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "김종철"@ko .
+
+ns2:OWLNamedIndividual_6ee271a6_63a7_4416_9412_763b977e1244 a ns2:OWLClass_5747c860_c510_4db0_abf2_dbdad526c9be,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "AS신청"@ko .
+
+ns2:OWLNamedIndividual_70bb6cd4_ce48_4ce6_b72b_ab5d066fd575 a ns2:OWLClass_22a9082d_91d9_4acb_b5a8_75aa140d67fe,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "지하4층"@ko .
+
+ns2:OWLNamedIndividual_79fb566f_0d86_4f0b_a2b9_4c0ee8185ea5 a ns2:OWLClass_db116e26_4554_4113_a562_cdd4d118738f,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "고장"@ko .
+
+ns2:OWLNamedIndividual_90959550_7f5b_4ade_aa69_3e2dfce197a4 a ns2:OWLClass_22a9082d_91d9_4acb_b5a8_75aa140d67fe,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "11층"@ko .
+
+ns2:OWLNamedIndividual_95964c4d_5008_4c25_965a_8112d055619a a ns2:OWLClass_9b10bca4_8dcc_47f8_90be_cd43cf9f6c9f,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "화장실"@ko .
+
+ns2:OWLNamedIndividual_9c588132_5442_4a64_a65d_2dd6630a4a1f a ns2:OWLClass_22a9082d_91d9_4acb_b5a8_75aa140d67fe,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "15층"@ko .
+
+ns2:OWLNamedIndividual_9ed15085_3435_4658_b250_0de9bd850558 a ns2:OWLClass_22a9082d_91d9_4acb_b5a8_75aa140d67fe,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "10층"@ko .
+
+ns2:OWLNamedIndividual_9fb32c72_087d_4ea2_b3b1_d55774184696 a ns2:OWLClass_22a9082d_91d9_4acb_b5a8_75aa140d67fe,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "13층"@ko .
+
+ns2:OWLNamedIndividual_a3ddcbbc_01ca_41a0_ba22_7909f317c435 a ns2:OWLClass_5747c860_c510_4db0_abf2_dbdad526c9be,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "점검"@ko .
+
+ns2:OWLNamedIndividual_a498b9bb_ebd7_4a13_8412_82466e90422b a ns2:OWLClass_5747c860_c510_4db0_abf2_dbdad526c9be,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "순찰"@ko .
+
+ns2:OWLNamedIndividual_a80f422e_0666_42f1_85f8_091177021a9e a ns2:OWLClass_cef15ee1_7240_479f_a351_2e114b078bdf,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "휴게실"@ko .
+
+ns2:OWLNamedIndividual_ac17b794_e808_4693_ab23_c90fa29d298e a ns2:OWLClass_22a9082d_91d9_4acb_b5a8_75aa140d67fe,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "12층"@ko .
+
+ns2:OWLNamedIndividual_b46ef24b_a552_4f21_8b44_28a6e27269c5 a ns2:OWLClass_22a9082d_91d9_4acb_b5a8_75aa140d67fe,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "8층"@ko .
+
+ns2:OWLNamedIndividual_bd349fa4_a4ce_47ba_8c0b_87fda0e7b20d a ns2:OWLClass_5747c860_c510_4db0_abf2_dbdad526c9be,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "입주청소"@ko .
+
+ns2:OWLNamedIndividual_c0fee5ca_e598_44db_9b49_e681816e0998 a ns2:OWLClass_22a9082d_91d9_4acb_b5a8_75aa140d67fe,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "7층"@ko .
+
+ns2:OWLNamedIndividual_cccdc7f6_7012_4e10_be95_3137ba0b166b a ns2:OWLClass_22a9082d_91d9_4acb_b5a8_75aa140d67fe,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "3층"@ko .
+
+ns2:OWLNamedIndividual_db934352_cb8b_44da_ab1c_c2ed695e883c a ns2:OWLClass_22a9082d_91d9_4acb_b5a8_75aa140d67fe,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "2층"@ko .
+
+ns2:OWLNamedIndividual_e3c26aef_070d_4208_9d42_b6694c491318 a ns2:OWLClass_10c177ba_3fca_42a8_85a6_98816fcefb27,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "김광무"@ko .
+
+ns2:OWLNamedIndividual_e6c8a1a9_a7d3_4659_a8fa_80a77f967a5d a ns2:OWLClass_10c177ba_3fca_42a8_85a6_98816fcefb27,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "백승우"@ko .
+
+ns2:OWLNamedIndividual_eae59d81_7de4_472a_a33c_8d70912684af a ns2:OWLClass_5747c860_c510_4db0_abf2_dbdad526c9be,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "센서보수"@ko .
+
+ns2:OWLNamedIndividual_fb81140b_af3b_45b7_ab09_c709258ed6d5 a ns2:OWLClass_22a9082d_91d9_4acb_b5a8_75aa140d67fe,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "9층"@ko .
+
+ns2:OWLNamedIndividual_fdd36a09_1781_4d81_8414_578cc7b309b2 a ns2:OWLClass_5747c860_c510_4db0_abf2_dbdad526c9be,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "철거"@ko .
+
+ns2:OWLNamedIndividual_fffb6d7d_bea2_4130_9e4e_eb21975aa3aa a ns2:OWLClass_ac5addd6_f978_43f4_816c_3d8d0ead4a77,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "저녁"@ko .
+
+ns2:지하2층 a ns2:OWLClass_22a9082d_91d9_4acb_b5a8_75aa140d67fe,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> .
+
+ns1:Worker_%EA%B9%80%EA%B4%91%EB%AC%B4%EC%99%B83%EB%AA%85 a ns1:Worker .
+
+ns1:Worker_%EC%B5%9C%ED%99%80%EC%B2%A0 a ns1:Worker .
+
+<http://example.org/fms#Worker_13%3A00~13%3A30> a ns1:Worker .
+
+<http://example.org/fms#Worker_21%3A30~22%3A00> a ns1:Worker .
+
+ns2:OWLClass_61ec26c2_356b_48d2_9b0f_140e7df2394d a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:label "주차장"@ko ;
+    rdfs:subClassOf ns2:OWLClass_4aeee69e_5b92_468b_9b28_a8f3e8a66322 .
+
+ns2:OWLClass_db116e26_4554_4113_a562_cdd4d118738f a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:label "작업원인"@ko .
+
+ns2:OWLClass_e05c89c6_7a99_4948_b2c0_fd0e272ea05a a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:label "위치"@ko .
+
+ns2:OWLNamedIndividual_902c7872_67f1_4b71_bf6e_c8ce2316a1e2 a ns2:OWLClass_5747c860_c510_4db0_abf2_dbdad526c9be,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "시공"@ko .
+
+ns2:OWLNamedIndividual_fa9dfd99_a920_4368_876f_30e07e65d68e a ns2:OWLClass_22a9082d_91d9_4acb_b5a8_75aa140d67fe,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "4층"@ko .
+
+ns2:OWLClass_9b10bca4_8dcc_47f8_90be_cd43cf9f6c9f a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:label "화장실"@ko ;
+    rdfs:subClassOf ns2:OWLClass_4aeee69e_5b92_468b_9b28_a8f3e8a66322 .
+
+ns2:OWLNamedIndividual_31ace1a3_80c7_4cf1_8acc_b980e8b96749 a ns2:OWLClass_ac5addd6_f978_43f4_816c_3d8d0ead4a77,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "오후"@ko .
+
+ns1:Worker_%EA%B9%80%EA%B4%91%EB%AC%B4 a ns1:Worker .
+
+ns2:OWLClass_4aeee69e_5b92_468b_9b28_a8f3e8a66322 a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:label "장소"@ko ;
+    rdfs:subClassOf ns2:OWLClass_e05c89c6_7a99_4948_b2c0_fd0e272ea05a .
+
+ns2:OWLClass_ac5addd6_f978_43f4_816c_3d8d0ead4a77 a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:label "시간대"@ko .
+
+ns2:OWLNamedIndividual_17648fbe_5bb3_40ba_a34a_dc816408c13e a ns2:OWLClass_10c177ba_3fca_42a8_85a6_98816fcefb27,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "이상원"@ko .
+
+ns2:OWLNamedIndividual_96e402e0_8a3b_45f1_876d_3331317c815e a ns2:OWLClass_ac5addd6_f978_43f4_816c_3d8d0ead4a77,
+        <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    rdfs:label "오전"@ko .
+
+ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98%EC%99%B82%EB%AA%85 a ns1:Worker .
+
+ns2:OWLClass_10c177ba_3fca_42a8_85a6_98816fcefb27 a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:label "작업자"@ko .
+
+ns2:OWLClass_baf85bb3_34a2_4e7a_813e_2d1280c80659 a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:label "작업"@ko .
+
+ns1:Worker a <http://www.w3.org/2002/07/owl#Class> .
+
+ns1:Plan a <http://www.w3.org/2002/07/owl#Class> .
+
+ns2:OWLClass_5747c860_c510_4db0_abf2_dbdad526c9be a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:label "작업유형"@ko .
+
+ns2:OWLClass_746efd2a_2831_43aa_b912_7f6f8ca23668 a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:label "물품"@ko .
+
+ns2:OWLClass_22a9082d_91d9_4acb_b5a8_75aa140d67fe a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:label "층수"@ko ;
+    rdfs:subClassOf ns2:OWLClass_e05c89c6_7a99_4948_b2c0_fd0e272ea05a .
+
+ns1:Material a <http://www.w3.org/2002/07/owl#Class> .
+
+ns1:Worker_%EC%9D%B4%EA%B6%8C%EC%88%98 a ns1:Worker .
+
+ns1:Worker_%EC%9D%B4%EC%83%81%EC%9B%90 a ns1:Worker .
+
+ns1:Worker_%EB%B0%95%EA%B8%B0%EC%A4%80 a ns1:Worker .
+
+ns1:Worker_%EB%B0%B1%EC%8A%B9%EC%9A%B0 a ns1:Worker .
+
+ns1:Worker_%EC%B5%9C%ED%99%8D%EC%B2%A0 a ns1:Worker .
+
+ns1:Time a <http://www.w3.org/2002/07/owl#Class> .
+
+ns1:Work a <http://www.w3.org/2002/07/owl#Class> .
+
